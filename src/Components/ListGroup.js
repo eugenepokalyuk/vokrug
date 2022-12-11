@@ -10,7 +10,7 @@ function Block() {
         <div className='uk-container uk-margin-large-top uk-padding'>
             <div className="uk-child-width-1-1@s uk-grid-collapse uk-text-center" data-uk-grid>
                 <div>
-                    <div className="uk-tile uk-light">
+                    <div className="uk-tile uk-dark">
                         <h4 className="uk-heading-small">Кто будет вести группу</h4>
                         <h4 className="uk-text-meta uk-text-large">Ведущий создаст доверительные отношения среди участников группы, что поможет эффективно взаимодействовать друг с другом.</h4>
                     </div>

@@ -7,7 +7,7 @@ function Block() {
                 <div className="uk-child-width-expand@s uk-text-center" data-uk-grid>
                     
                     <div>
-                        <div className="uk-card uk-card-default uk-container-vokrug">
+                        <div className="uk-card uk-container-vokrug">
                             <div className="uk-text-center" data-uk-grid>
                                 <div className="uk-width-expand@m">
                                     <div className="uk-card uk-card-body uk-text-left">Приветствие</div>
@@ -29,7 +29,7 @@ function Block() {
                     </div>
 
                     <div>
-                        <div className="uk-card uk-card-default uk-container-vokrug">
+                        <div className="uk-card uk-container-vokrug">
                             <div className="uk-text-center" data-uk-grid>
                                 <div className="uk-width-expand@m">
                                     <div className="uk-card uk-card-body uk-text-left">Приветствие</div>

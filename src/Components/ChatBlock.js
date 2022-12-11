@@ -2,9 +2,9 @@ import React from 'react';
 
 function Block() {
     return(
-        <div className='uk-container uk-container-vokrug uk-margin-large-top uk-padding'>
+        <div className='uk-container uk-container-vokrug uk-container-vokrug-pattern uk-margin-large-top uk-padding'>
             <div className='uk-width-1-2@s uk-align-center'>
-                <div className="uk-card uk-border-rounded uk-margin-large-top">
+                <div className="uk-card uk-border-rounded">
                     <div className="uk-card-body uk-padding-small">
                     
                         <div className="guest uk-grid-small uk-flex-bottom uk-flex-left" data-uk-grid>

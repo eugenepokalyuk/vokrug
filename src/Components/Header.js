@@ -13,7 +13,7 @@ function Header() {
                 </div>
 
                 <div className="uk-navbar-right">
-                    <a className="uk-button uk-button-default" href="https://www.google.com" target="_blank" rel="noreferrer">Записаться на бесплатную встречу</a>
+                    <a className="uk-button vokrug-button-defaul" href="https://www.google.com" target="_blank" rel="noreferrer">Записаться на бесплатную встречу</a>
                 </div>
             </nav>
 
@@ -25,7 +25,7 @@ function Header() {
                             <h1>Онлайн-группы поддержки с опытным психологом на тему отношения</h1>
                             <p className='uk-text-meta'>До 8 человек · 90 мин раз в неделю · От 1000 ₽</p>
                             <div className='uk-flex uk-flex-middle uk-flex-center uk-flex-column vokrug-width-1-2 uk-margin-large-top'>
-                                <a className="uk-button uk-button-primary uk-border-rounded" href="#a">Записаться на бесплатную встречу</a>
+                                <a className="uk-button vokrug-button-secondary uk-border-rounded" href="#a">Записаться на бесплатную встречу</a>
                                 <p className='uk-text-meta uk-text-center'>На встрече психолог расскажет как проходят групповые сессии и уточнит ваш запрос.</p>
                             </div>
                         </div>

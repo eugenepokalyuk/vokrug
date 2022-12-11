@@ -1,0 +1,115 @@
+.vokrug-container-header {
+  background: #457460;
+  /* max-width: 100% !important; */
+  width: 100% !important;
+}
+.uk-accordion-title {
+  font-size: 16pt;
+}
+.uk-accordion-title::before {
+  background-color: rgb(204, 204, 204, 0.2);
+  border-radius: 5px;
+}
+.uk-accordion-content {
+  color: #666;
+}
+hr {
+  border-color: rgb(204, 204, 204, 0.4);
+}
+
+/* #region [ vokrug ] */
+
+.vokrug-text-default {
+  color: #fff;
+}
+.uk-container-vokrug {
+  background-color: #fff;
+  /* border-top-left-radius: 40px; */
+  /* border-top-right-radius: 40px; */
+  border-radius: 40px;
+}
+.vokrug-parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.vokrug-image-1 {
+  width: 400px;
+
+  position: relative;
+  top: 0;
+  left: 0;
+  /* border: 1px cyan solid; */
+}
+.vokrug-image-2 {
+  width: 250px;
+
+  position: absolute;
+  top: 300px;
+  left: 0px;
+  /* border: 1px red solid; */
+}
+.vokrug-width-1-2 {
+  max-width: 75%;
+}
+
+.vokrug-card-default {
+  color: #fff;
+  background: #457460;
+
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.vokrug-card-primary {
+  color: #fff;
+  background: #333;
+
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.vokrug-border-rounded {
+  border-radius: 30px;
+}
+
+.vokrug-check-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.uk-icon-button:nth-child(1n) {
+  border-radius: 5px;
+  background-color: lightgreen;
+}
+
+.uk-icon-button:nth-child(2n) {
+  border-radius: 5px;
+  background-color: lightskyblue;
+}
+
+.uk-icon-button:nth-child(3n) {
+  border-radius: 5px;
+  background-color: lightblue;
+}
+
+.uk-icon-button:nth-child(1n):hover {
+  background-color: rgb(116, 231, 116);
+}
+
+.uk-icon-button:nth-child(2n):hover {
+  background-color: rgb(109, 192, 244);
+}
+
+.uk-icon-button:nth-child(3n):hover {
+  background-color: rgb(150, 207, 226);
+}
+
+/* #endregion [ vokrug ] */

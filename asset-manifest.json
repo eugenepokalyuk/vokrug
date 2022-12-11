@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/vokrug/static/css/main.2aa1c291.css",
+    "main.js": "/vokrug/static/js/main.a86529a8.js",
+    "static/js/787.ad5683b7.chunk.js": "/vokrug/static/js/787.ad5683b7.chunk.js",
+    "static/media/header-image.png": "/vokrug/static/media/header-image.d37f397e794fee5c47ea.png",
+    "static/media/userTwo.png": "/vokrug/static/media/userTwo.e73471c3b26e3cbf47e3.png",
+    "static/media/userOne.png": "/vokrug/static/media/userOne.24b4dffb04a12c6a64aa.png",
+    "static/media/userThree.png": "/vokrug/static/media/userThree.68a0dc3d4e7cf12446a3.png",
+    "static/media/header-image-small.png": "/vokrug/static/media/header-image-small.f9368e237e69869604b3.png",
+    "static/media/checkImage.png": "/vokrug/static/media/checkImage.3cc6357594832dba0e0c.png",
+    "index.html": "/vokrug/index.html",
+    "main.2aa1c291.css.map": "/vokrug/static/css/main.2aa1c291.css.map",
+    "main.a86529a8.js.map": "/vokrug/static/js/main.a86529a8.js.map",
+    "787.ad5683b7.chunk.js.map": "/vokrug/static/js/787.ad5683b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2aa1c291.css",
+    "static/js/main.a86529a8.js"
+  ]
+}

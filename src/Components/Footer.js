@@ -4,7 +4,7 @@ function Block() {
     return(
         <div className='uk-container vokrug-container-header'>
 
-            <nav class="uk-navbar" data-uk-navbar>
+            <nav className="uk-navbar" data-uk-navbar>
 
                 <div className="uk-navbar-left">
 

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function Block() {
     return(
-        <div className='uk-container uk-container-vokrug uk-margin-large-top uk-padding'>
+        <div className='uk-container uk-container-vokrug-transparent uk-margin-large-top uk-padding'>
             <div>
                 <div className='uk-align-center uk-width-1-2@s uk-dark'>
                     <h1 className='uk-text-center'>Ответы на вопросы</h1>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import images from "../Images/header-image.png"
 import imagesSmall from "../Images/header-image-small.png"
 const blockImageStyle = {

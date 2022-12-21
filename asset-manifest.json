@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/vokrug/static/css/main.e1e29bbc.css",
-    "main.js": "/vokrug/static/js/main.e60a077d.js",
+    "main.css": "/vokrug/static/css/main.03861c86.css",
+    "main.js": "/vokrug/static/js/main.e93f7a4a.js",
     "static/js/787.ad5683b7.chunk.js": "/vokrug/static/js/787.ad5683b7.chunk.js",
-    "static/media/header-image.png": "/vokrug/static/media/header-image.d37f397e794fee5c47ea.png",
     "static/media/userTwo.png": "/vokrug/static/media/userTwo.e73471c3b26e3cbf47e3.png",
     "static/media/userOne.png": "/vokrug/static/media/userOne.24b4dffb04a12c6a64aa.png",
     "static/media/userThree.png": "/vokrug/static/media/userThree.68a0dc3d4e7cf12446a3.png",
-    "static/media/header-image-small.png": "/vokrug/static/media/header-image-small.f9368e237e69869604b3.png",
-    "static/media/bgPattern.jpg": "/vokrug/static/media/bgPattern.ac97e187ec2003323662.jpg",
-    "static/media/checkImage.png": "/vokrug/static/media/checkImage.3cc6357594832dba0e0c.png",
+    "static/media/header-image.png": "/vokrug/static/media/header-image.34121ab59c6b77253574.png",
+    "static/media/header-image-small.png": "/vokrug/static/media/header-image-small.57ddc9d2691714308bfa.png",
     "index.html": "/vokrug/index.html",
-    "main.e1e29bbc.css.map": "/vokrug/static/css/main.e1e29bbc.css.map",
-    "main.e60a077d.js.map": "/vokrug/static/js/main.e60a077d.js.map",
+    "main.03861c86.css.map": "/vokrug/static/css/main.03861c86.css.map",
+    "main.e93f7a4a.js.map": "/vokrug/static/js/main.e93f7a4a.js.map",
     "787.ad5683b7.chunk.js.map": "/vokrug/static/js/787.ad5683b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1e29bbc.css",
-    "static/js/main.e60a077d.js"
+    "static/css/main.03861c86.css",
+    "static/js/main.e93f7a4a.js"
   ]
 }

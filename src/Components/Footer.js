@@ -8,7 +8,7 @@ function Block() {
 
                 <div className="uk-navbar-left">
 
-                    <ul className="uk-navbar-nav">
+                    <ul className="uk-navbar-nav vokrug-adv-textDecoration">
                         <li><a href="#">2022 © Vokrug.space</a></li>
                         <li><a href="#">ask@vokrug.space</a></li>
                     </ul>
@@ -17,7 +17,7 @@ function Block() {
 
                 <div className="uk-navbar-right">
 
-                    <ul className="uk-navbar-nav">
+                    <ul className="uk-navbar-nav vokrug-adv-textDecoration">
                         <li><a href="#">Пользовательское соглашение</a></li>
                         <li><a href="#">Политика конфиденциальности</a></li>
                     </ul>

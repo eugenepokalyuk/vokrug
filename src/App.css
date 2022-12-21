@@ -1,213 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter+Tight&family=Montserrat:wght@400;500&family=Open+Sans&display=swap');
+
 .vokrug-container-header {
-  /* background: #457460; */
   background: transparent;
-  /* max-width: 100% !important; */
   width: 100% !important;
 }
-.uk-accordion-title {
-  font-size: 16pt;
-}
-.uk-accordion-title::before {
-  background-color: rgb(204, 204, 204, 0.2);
-  border-radius: 5px;
-}
-.uk-accordion-content {
-  color: #666;
-}
-hr {
-  border-color: rgb(204, 204, 204, 0.4);
+
+.uk-container-vokrug-pattern {
+  /* background-image: url(./Images/bgPattern.png); */
+  background-color: #131D29 !important;
 }
 
-/* #region [ vokrug ] */
-
-.vokrug-text-default {
-  color: #fff;
+.vokrug-width-1-2 {
+  width: 60%;
 }
+
 .uk-container-vokrug {
   background-color: #fff;
   border-radius: 40px;
 }
 
-.uk-container-vokrug-transparent {
-  background-color: transparent;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.uk-container-vokrug-pattern {
-  background-image: url(./Images/bgPattern.jpg);
-}
-
-.vokrug-parent {
-  position: relative;
-  background: cyan;
-}
-.vokrug-parent img:nth-child(1n) {
-  width: 50%;
-  background: red;
-}
-
-.vokrug-parent img:nth-child(2n) {
-  width: 25%;
-  background: blue;
-}
-
-.vokrug-width-1-2 {
-  max-width: 65%;
-}
-
-.vokrug-card-default {
-  color: #fff;
-  background: #457460;
-
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
-}
-
-.vokrug-card-primary {
-  color: #fff;
-  background: #333;
-
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-
-  border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
-}
-
-.vokrug-border-rounded {
-  border-radius: 30px;
-}
-
-.vokrug-check-icon {
-  width: 20px;
-  height: 20px;
-  border-radius: 100%;
-}
-
-.uk-icon-button:nth-child(1n) {
-  border-radius: 5px;
-  background-color: lightgreen;
-}
-
-.uk-icon-button:nth-child(2n) {
-  border-radius: 5px;
-  background-color: lightskyblue;
-}
-
-.uk-icon-button:nth-child(3n) {
-  border-radius: 5px;
-  background-color: lightblue;
-}
-
-.uk-icon-button:nth-child(1n):hover {
-  background-color: rgb(116, 231, 116);
-}
-
-.uk-icon-button:nth-child(2n):hover {
-  background-color: rgb(109, 192, 244);
-}
-
-.uk-icon-button:nth-child(3n):hover {
-  background-color: rgb(150, 207, 226);
-}
-
-.vokrug-button-default {
-  background-color: transparent;
-  border: 1px solid rgb(255, 255, 255, 0.4);
-  border-radius: 5px;
-}
-
-.vokrug-button-default:hover {
-  background-color: #222;
-  border: 1px solid #222;
-}
-
-.vokrug-button-default.light:hover {
-  background-color: #222;
-  border: 1px solid #222;
+.vokrug-button.dark {
+  padding: 10px 16px;
+  background: #222222;
+  border-radius: 10px;
   color: #fff;
 }
 
-.vokrug-button-default.dark:hover {
-  background-color: #fff;
-  border: 1px solid #fff;
-  color: #222;
+.vokrug-adv-header {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  /* or 117% */
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  
+  color: #FFFFFF;
 }
 
-.vokrug-button-secondary {
-  background-color: #222;
-  border: 1px solid #222;
-}
-.vokrug-button-secondary:hover {
-  background-color: transparent;
-  border: 1px solid #fff;
-}
-.vokrug-padding-top {
-  padding-top: 10px !important;
-}
-.vokrug-padding-bottom {
-  padding-bottom: 10px !important;
+.vokrug-adv-meta {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  
+  color: rgba(255, 255, 255, 0.64);
 }
 
-.vokrug-padding-left {
-  padding-left: 10px;
-}
-.vokrug-padding-right {
-  padding-right: 10px;
+.vokrug-button.dark:hover {
+  background: rgba(34, 34, 34, 0.8);
 }
 
-.vokrug-padding-left-small {
-  padding-left: 2px !important;
+.vokrug-button.light {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 6px;
 }
-.vokrug-padding-left-defaul {
-  padding-right: 10px !important;
-}
-.vokrug-padding-left-large {
-  padding-left: 20px !important;
-}
-
-.vokrug-padding-right-small {
-  padding-right: 2px !important;
-}
-.vokrug-padding-right-defaul {
-  padding-right: 10px !important;
-}
-.vokrug-padding-right-large {
-  padding-right: 20px !important;
+.vokrug-button.light:hover {
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.16);
 }
 
-.vokrug-padding-top-remove {
-  padding-top: 0px;
+.vokrug-header-text {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  color: #FFFFFF;
 }
-.vokrug-padding-bottom-remove {
-  padding-bottom: 0px;
-}
-.vokrug-padding-left-remove {
-  padding-left: 0px;
-}
-.vokrug-padding-right-remove {
-  padding-right: 0px;
-}
-.vokrug-text-default {
-  font-size: 14pt;
-}
-.vokrug-text-small {
-  font-size: 12pt;
-}
-.vokrug-text-large {
-  font-size: 16pt;
-}
-.vokrug-textColor-white {
-  color: #eee !important;
-}
-/* #endregion [ vokrug ] */
 
+.vokrug-h2-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+}
+.vokrug-accordion-header {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+}
+.vokrug-accordion-text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  
+  color: #999999;
+}
+.vokrug-metting-header {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  
+  color: #333333;
+}
 
-.test {
-  width: 90%;
-  /* background: cyan; */
+.vokrug-metting-number {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: right;
+
+  color: rgba(51, 51, 51, 0.4);
+}
+
+.vokrug-metting-text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  
+  color: #999999;
+}
+
+.vokrug-teachers-header {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333333;
+}
+.vokrug-teachers-text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+
+  color: #999999;
+}
+
+.vokrug-teachers-meta li {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #999999;
+}
+
+.vokrug-teachers-container {
+  border-radius: 32px;
+}
+
+.vokrug-faqs-text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #999999;
+}
+
+.vokrug-bg-green {
+  background: #33765F;
+  border-radius: 32px;
+}
+
+.cssTrick {
+  margin-left: 10px;
+}
+
+.cssTrick svg {
+  position: absolute;
+  top: 150px;
+  left: 190px;
+}
+
+.cssTrick2 {
+  margin-left: 10px;
+}
+
+.cssTrick2 svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.vokrug-body-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #fff;
+}
+
+hr {
+  /* border-color: rgb(204, 204, 204, 0.4); */
+  border-color: rgba(51, 51, 51, 0.08);
+  margin: 40px 0px;
+}
+
+.uk-accordion-title::before {
+  background-color: rgb(225, 224, 223, 0.56);
+  border-radius: 10px;
+
+  /* background: rgba(225, 224, 223, 0.56); */
+  border-radius: 8px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.guest div {
+  color: #FFFFFF;
+  background-color: #0E7FD0;
+  border-radius: 60px 80px 80px 0px;
+}
+.me div{
+  color: #FFFFFF;
+  background: #222E3A;
+  border-radius: 80px 80px 20px 80px;
+}
+
+.vokrug-padding-left-2px>div:nth-child(2n) {
+  padding-left: 2px;
+}
+
+.vokrug-margin-top-2px {
+  margin-top: 2px !important;
+}
+
+.vokrig-height-medium {
+  /* height: 420px; */
+}
+
+.vokrug-adv-textDecoration a {
+  text-transform: none !important;
+}
+
+.vokrug-icons-hover svg {
+  /* transition: 300ms; */
+}
+
+.vokrug-icons-hover svg:hover {
+  /* opacity: 0.8; */
+  filter: opacity(0.8);
 }

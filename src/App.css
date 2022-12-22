@@ -176,26 +176,6 @@
   border-radius: 32px;
 }
 
-.cssTrick {
-  margin-left: 10px;
-}
-
-.cssTrick svg {
-  position: absolute;
-  top: 150px;
-  left: 190px;
-}
-
-.cssTrick2 {
-  margin-left: 10px;
-}
-
-.cssTrick2 svg {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
-
 .vokrug-body-text {
   font-family: 'Montserrat';
   font-style: normal;

@@ -37,16 +37,16 @@ function Header() {
                 <div className="uk-child-width-1-2@s uk-text-center uk-flex uk-flex-middle" data-uk-grid>
                     <div>
                         <div className="uk-card">
-                            <h1 className='uk-text-left vokrug-header-text'>Онлайн-группы поддержки с опытным психологом на тему 
-                            
-                            <span className='cssTrick'>
-                                <svg width="327" height="94" viewBox="0 0 327 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M190.999 1C190.999 1 13.3874 8.51637 1.57862 48.4155C-14.6654 103.3 325.999 112.254 325.999 48.4155C325.999 8.01782 148.09 14.1759 87.4991 29" stroke="#FFDE2F" strokeWidth="2" strokeLinecap="round"/>
-                                </svg>
-                                отношения
-                            </span>
-
+                            <h1 className='uk-text-left vokrug-header-text'>
+                                Онлайн-группы поддержки с опытным психологом на тему
+                                <div className="uk-inline">
+                                    <svg width="327" height="94" viewBox="0 0 327 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M190.999 1C190.999 1 13.3874 8.51637 1.57862 48.4155C-14.6654 103.3 325.999 112.254 325.999 48.4155C325.999 8.01782 148.09 14.1759 87.4991 29" stroke="#FFDE2F" strokeWidth="2" strokeLinecap="round"/>
+                                    </svg>
+                                    <div className="uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">отношения</div>
+                                </div>
                             </h1>
+
                             <p className='uk-text-left uk-margin-medium-top vokrug-body-text'>До 8 человек · 90 мин раз в неделю · От 1000 ₽</p>
                             <div className='uk-flex uk-flex-column uk-margin-medium-top vokrug-width-1-2'>
                                 <a className="uk-button dark vokrug-button uk-padding-remove-left uk-padding-remove-right" href="#a">Записаться на бесплатную встречу</a>

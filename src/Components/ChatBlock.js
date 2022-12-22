@@ -5,7 +5,7 @@ function Block() {
         <div className='uk-container uk-container-vokrug uk-container-vokrug-pattern uk-margin-large-top uk-padding'>
             <div className='uk-width-1-2@s uk-align-center'>
                 <div className="uk-card uk-border-rounded">
-                    <div className="uk-card-body uk-padding-small" data-uk-scrollspy="cls: uk-animation-slide-bottom; target: .guest, .me; delay: 300; repeat: true">
+                    <div className="uk-card-body uk-padding-small" data-uk-scrollspy="cls: uk-animation-slide-bottom; target: .guest, .me; delay: 300; repeat: false">
                     
                         <div className="guest uk-grid-small uk-flex-bottom uk-flex-left" data-uk-grid>
                             <div className="uk-width-auto">

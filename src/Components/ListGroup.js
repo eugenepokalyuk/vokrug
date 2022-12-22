@@ -3,7 +3,12 @@ import React from 'react';
 import userOne from "../Images/userOne.png"
 import userTwo from "../Images/userTwo.png"
 import userThree from "../Images/userThree.png"
-import checkImg from "../Images/checkImage.png"
+// import checkImg from "../Images/bullet.svg"
+
+// list-style-image: url(./Images/bullet.svg)
+// let option = {
+//     "list-style-image": url({checkImg})
+// }
 
 function Block() {
     return(
@@ -22,45 +27,45 @@ function Block() {
                             <img src={userOne} alt="" className='vokrug-border-rounded vokrug-teachers-container'/>
                             <h3 className="uk-card-title">Снежана</h3>
                             
-                            <ul className="uk-list uk-list-divider uk-padding-small uk-text-left uk-padding-small vokrug-teachers-meta">
-                                <li><img src={checkImg} alt="123" className='vokrug-check-icon uk-margin-small-right' />9 лет опыта.</li>
-                                <li><img src={checkImg} alt="123" className='vokrug-check-icon uk-margin-small-right' />Психолог, психоаналитик, сертифицированный специалист Европейской Конфедерации Психоаналитической Психотерапии.</li>
-                                <li><img src={checkImg} alt="123" className='vokrug-check-icon uk-margin-small-right' />Более 3000 индивидуальныхи групповых встреч.</li>
-                                <li><img src={checkImg} alt="123" className='vokrug-check-icon uk-margin-small-right' />Сертификат общественной аккредитации об успешном завершении курса Основы группового анализа.</li>
+                            <ul className="uk-list uk-text-left uk-list-bullet">
+                                <li>9 лет опыта.</li>
+                                <li>Психолог, психоаналитик, сертифицированный специалист Европейской Конфедерации Психоаналитической Психотерапии.</li>
+                                <li>Более 3000 индивидуальных и групповых встреч.</li>
+                                <li>Сертификат общественной аккредитации об успешном завершении курса Основы группового анализа.</li>
                             </ul>
 
                         </div>
                     </div>
-                    
+
                     <div>
                         <div className="uk-card uk-card-default vokrug-border-rounded vokrug-teachers-container">
                             <img src={userTwo} alt="" className='vokrug-border-rounded vokrug-teachers-container'/>
                             <h3 className="uk-card-title">Людмила</h3>
-                            <ul className="uk-list uk-list-divider uk-padding-small uk-text-left uk-padding-small vokrug-teachers-meta">
-                                <li><img src={checkImg} alt="123" className='vokrug-check-icon uk-margin-small-right' />8 лет опыта.</li>
-                                <li><img src={checkImg} alt="123" className='vokrug-check-icon uk-margin-small-right' />Практикующий психолог.</li>
-                                <li><img src={checkImg} alt="123" className='vokrug-check-icon uk-margin-small-right' />Диплом Санкт-ПетербургскогоГосударственного Университета, факультет Психологии и Австралийского Института Клинической и Образовательной Арт-терапии.</li>
-                                <li><img src={checkImg} alt="123" className='vokrug-check-icon uk-margin-small-right' />Сертификат общественнойаккредитации об успешном завершении курса Основы группового анализа.</li>
+                            
+                            <ul className="uk-list uk-text-left uk-list-bullet">
+                                <li>8 лет опыта.</li>
+                                <li>Практикующий психолог.</li>
+                                <li>Диплом Санкт-Петербургского Государственного Университета, факультет Психологии  и Австралийского Института  Клинической и Образовательной Арт-терапии.</li>
+                                <li>Сертификат общественной аккредитации об успешном завершении курса Основы  группового анализа.</li>
                             </ul>
 
                         </div>
                     </div>
-
                     <div>
                         <div className="uk-card uk-card-default vokrug-border-rounded vokrug-teachers-container">
                             <img src={userThree} alt="" className='vokrug-border-rounded vokrug-teachers-container'/>
                             <h3 className="uk-card-title">Пётр</h3>
                             
-                            <ul className="uk-list uk-list-divider uk-padding-small uk-text-left uk-padding-small vokrug-teachers-meta">
-                                <li><img src={checkImg} alt="123" className='vokrug-check-icon uk-margin-small-right' />8 лет опыта.</li>
-                                <li><img src={checkImg} alt="123" className='vokrug-check-icon uk-margin-small-right' />Кризисный психолог,немедицинский психотерапевт гуманистического направления.</li>
-                                <li><img src={checkImg} alt="123" className='vokrug-check-icon uk-margin-small-right' />Сертифицированный групповой терапевт и профессиональный медиатор.</li>
-                                <li><img src={checkImg} alt="123" className='vokrug-check-icon uk-margin-small-right' />Более 2500 часов работыс клиентами в индивидуальном и групповом формате, более 1000 часов супервизиии личной терапии.</li>
+                            <ul className="uk-list uk-text-left uk-list-bullet">
+                                <li>8 лет опыта.</li>
+                                <li>Кризисный психолог, немедицинский психотерапевт гуманистического направления.</li>
+                                <li>Сертифицированный групповой терапевт и профессиональный медиатор.</li>
+                                <li>Более 2500 часов работы с клиентами в индивидуальном и групповом формате, более 1000 часов супервизии и личной терапии.</li>
                             </ul>
 
                         </div>
                     </div>
-
+            
                 </div>
 
             </div>

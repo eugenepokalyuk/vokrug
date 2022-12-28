@@ -23,7 +23,7 @@ function Block() {
                             <hr />
                         </li>
                         <li>
-                            <a className="uk-accordion-title vokrug-accordion-header" href="#3">Типы привязаности</a>
+                            <a className="uk-accordion-title vokrug-accordion-header" href="#3">Типы привязанности</a>
                             <div className="uk-accordion-content">
                                 <p className='vokrug-accordion-text'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
                             </div>
@@ -44,7 +44,7 @@ function Block() {
                             <hr />
                         </li>
                         <li>
-                            <a className="uk-accordion-title vokrug-accordion-header" href="#3">Как на практике реализовать теорию</a>
+                            <a className="uk-accordion-title vokrug-accordion-header" href="#3">Как на практике реализовать теорию?</a>
                             <div className="uk-accordion-content">
                                 <p className='vokrug-accordion-text'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
                             </div>

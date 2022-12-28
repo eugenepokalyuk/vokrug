@@ -22,13 +22,13 @@ function Header() {
         <div className='uk-container vokrug-container-header'>
             <nav className="uk-navbar uk-margin uk-padding-small uk-light uk-text-large" data-uk-navbar>
                 <div className="uk-navbar-left">
-                    <ul className="uk-navbar-nav">
+                    <ul className="uk-navbar-nav vokrug-text-logo vokrug-text-white">
                         <li style={logoStyle}>вокруг</li>
                     </ul>
                 </div>
 
-                <div className="uk-navbar-right light vokrug-button">
-                    <a className="uk-button" href="https://www.google.com" target="_blank" rel="noreferrer">Записаться на бесплатную встречу</a>
+                <div className="uk-navbar-right">
+                    <a href="https://www.google.com" target="_blank" rel="noreferrer" className='light vokrug-button'>Записаться на бесплатную встречу</a>
                 </div>
             </nav>
 
@@ -37,8 +37,8 @@ function Header() {
                 <div className="uk-child-width-1-2@s uk-text-center uk-flex uk-flex-middle" data-uk-grid>
                     <div>
                         <div className="uk-card">
-                            <h1 className='uk-text-left vokrug-header-text'>
-                                Онлайн-группы поддержки с опытным психологом на тему
+                            <h1 className='uk-text-left vokrug-header-text vokrug-header-text-test'>
+                                Онлайн-группы поддержки с опытным психологом <br />на тему
                                 <div className="uk-inline">
                                     <svg width="327" height="94" viewBox="0 0 327 94" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M190.999 1C190.999 1 13.3874 8.51637 1.57862 48.4155C-14.6654 103.3 325.999 112.254 325.999 48.4155C325.999 8.01782 148.09 14.1759 87.4991 29" stroke="#FFDE2F" strokeWidth="2" strokeLinecap="round"/>
@@ -47,16 +47,16 @@ function Header() {
                                 </div>
                             </h1>
 
-                            <p className='uk-text-left uk-margin-medium-top vokrug-body-text'>До 8 человек · 90 мин раз в неделю · От 1000 ₽</p>
-                            <div className='uk-flex uk-flex-column uk-margin-medium-top vokrug-width-1-2'>
-                                <a className="uk-button dark vokrug-button uk-padding-remove-left uk-padding-remove-right" href="#a">Записаться на бесплатную встречу</a>
-                                <p className='uk-text-meta uk-text-center uk-margin-small-top'>На встрече психолог расскажет как проходят групповые сессии и уточнит ваш запрос.</p>
+                            <p className='uk-text-left vokrug-body-text'>До 8 человек <span>·</span> 90 мин раз в неделю <span>·</span> От 1000 ₽</p>
+                            <div className='uk-flex uk-flex-column vokrug-width-1-2 vokrug-margin-large-top'>
+                                <a className="dark vokrug-button" href="#a">Записаться на бесплатную встречу</a>
+                                <p className='vokrug-text-meta uk-text-center uk-margin-small-top'>На встрече психолог расскажет как проходят групповые сессии и уточнит ваш запрос.</p>
                             </div>
                         </div>
                     </div>
                     
-                    <div className="uk-inline" style={blockImageStyle}>
-                        <img src={images} width="300" height="1200" alt="123"/>
+                    <div className="uk-inline" style={blockImageStyle} data-uk-scrollspy="cls: uk-animation-slide-bottom; delay: 300; repeat: false">
+                        <img src={images} width="300" height="1200" alt="123" />
                         <div className="uk-position-bottom-left uk-overlay uk-padding-remove" style={imageStyle}>
                             <img src={imagesSmall} width="150" alt="123" />
                         </div>

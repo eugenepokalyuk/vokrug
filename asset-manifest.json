@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/vokrug/static/css/main.6a25d98d.css",
-    "main.js": "/vokrug/static/js/main.45a7d98a.js",
+    "main.css": "/vokrug/static/css/main.67dbeaf5.css",
+    "main.js": "/vokrug/static/js/main.07a18664.js",
     "static/js/787.ad5683b7.chunk.js": "/vokrug/static/js/787.ad5683b7.chunk.js",
     "static/media/userTwo.png": "/vokrug/static/media/userTwo.e73471c3b26e3cbf47e3.png",
     "static/media/userOne.png": "/vokrug/static/media/userOne.24b4dffb04a12c6a64aa.png",
     "static/media/userThree.png": "/vokrug/static/media/userThree.68a0dc3d4e7cf12446a3.png",
+    "static/media/bgPattern.png": "/vokrug/static/media/bgPattern.507439468695b0241567.png",
     "static/media/header-image.png": "/vokrug/static/media/header-image.34121ab59c6b77253574.png",
     "static/media/header-image-small.png": "/vokrug/static/media/header-image-small.57ddc9d2691714308bfa.png",
     "index.html": "/vokrug/index.html",
-    "main.6a25d98d.css.map": "/vokrug/static/css/main.6a25d98d.css.map",
-    "main.45a7d98a.js.map": "/vokrug/static/js/main.45a7d98a.js.map",
+    "static/media/chevron-up.svg": "/vokrug/static/media/chevron-up.1fd9677bea82fca454c3.svg",
+    "static/media/chevron-down.svg": "/vokrug/static/media/chevron-down.59bd19898562e872bed5.svg",
+    "main.67dbeaf5.css.map": "/vokrug/static/css/main.67dbeaf5.css.map",
+    "main.07a18664.js.map": "/vokrug/static/js/main.07a18664.js.map",
     "787.ad5683b7.chunk.js.map": "/vokrug/static/js/787.ad5683b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a25d98d.css",
-    "static/js/main.45a7d98a.js"
+    "static/css/main.67dbeaf5.css",
+    "static/js/main.07a18664.js"
   ]
 }

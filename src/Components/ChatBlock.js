@@ -2,7 +2,7 @@ import React from 'react';
 
 function Block() {
     return(
-        <div className='uk-container uk-container-vokrug uk-container-vokrug-pattern uk-margin-large-top uk-padding'>
+        <div className='uk-container uk-container-vokrug uk-container-vokrug-pattern uk-margin-large-top uk-padding vokrug-width-90'>
             {/* <div className='uk-width-1-2@s uk-align-center'> */}
             <div className='vokrug-width-60 uk-align-center'>
             {/* vokrug-width-70 */}

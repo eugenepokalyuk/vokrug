@@ -350,6 +350,9 @@ hr {
 .vokrug-padding-left-2px>div:nth-child(2n) {
   padding-left: 2px;
 }
+.vokrug-padding-medium {
+  padding: 32px;
+}
 
 .vokrug-margin-top-2px {
   margin-top: 2px !important;

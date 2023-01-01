@@ -31,8 +31,8 @@ function Header() {
 
             <div className='uk-margin uk-padding-small uk-margin-large-top uk-light'>
 
-                <div className="vokrug-child-width-1-2@s" data-uk-grid>
-                {/* <div className="uk-child-width-1-2@s uk-text-center uk-flex uk-flex-middle" data-uk-grid> */}
+                {/* <div className="vokrug-child-width-1-2@s" data-uk-grid> */}
+                <div className="uk-child-width-1-2@s uk-text-center uk-flex uk-flex-middle" data-uk-grid>
                     <div>
                         <div className="uk-card">
                             <h1 className='uk-text-left vokrug-header-text vokrug-header-text-test'>

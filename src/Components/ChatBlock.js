@@ -2,6 +2,11 @@ import React from 'react';
 const size760 = {
     "maxWidth":"760px"
 }
+const pos = {
+    position: "absolute",
+    left: "760px",
+    bottom: "15px",
+}
 function Block() {
     return(
         <div className='uk-container uk-container-vokrug uk-container-vokrug-pattern uk-margin-large-top uk-padding'>
@@ -77,7 +82,7 @@ function Block() {
                                 <p className="uk-margin-remove vokrug-chat-font">Безболезненно выходить из отношений</p>
                             </div>
                             <div>
-                                <h1 className="me-icon uk-flex uk-flex-center uk-flex-middle"><span>B</span></h1>
+                                <h1 className="me-icon uk-flex uk-flex-center uk-flex-middle" style={pos}><span>B</span></h1>
                             </div>
                         </div>
 

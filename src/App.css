@@ -356,3 +356,16 @@ hr {
 .vokrug-icons-hover svg:hover {
   filter: opacity(0.8);
 }
+.h1_test {
+    position: relative;
+    z-index: 1;
+}
+.svg_test {
+    position: absolute; 
+    transform: translate(-13px, -20%); 
+    z-index: -1;
+}
+
+.svg_test svg {
+    scale: 0.93;
+}

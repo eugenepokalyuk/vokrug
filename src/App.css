@@ -1,20 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter+Tight&family=Montserrat:wght@400;500&family=Open+Sans&display=swap');
-
 .vokrug-container-header {
   background: transparent;
-  max-width: 100% !important;
 }
-
 .uk-container-vokrug-pattern {
   background: url(./Images/bgPattern.png) !important;
   background-color: #131D29 !important;
   background-blend-mode: darken !important;
 }
-
 .vokrug-width-1-2 {
   width: 62%;
 }
-
 .vokrug-text-logo {
   font-family: 'DM Sans';
   font-style: normal;
@@ -23,16 +18,11 @@
   line-height: 32px;
   letter-spacing: 5px;
 }
-
 .vokrug-text-logo:hover {
   cursor: pointer;
 }
-
 .vokrug-text-white {
   color: #fff;
-}
-.uk-container {
-  max-width: 100%;
 }
 .uk-container-vokrug {
   background-color: #fff;
@@ -71,11 +61,12 @@
 }
 
 .vokrug-button.dark {
+  max-width: 395px;
   background: #222222;
   border-radius: 10px;
   color: #fff;
   font-family: 'Open Sans';
-  padding: 20px 26px !important;
+  padding: 20px 26px;
   font-size: 20px;
   line-height: 28px;
   border-radius: 10px;
@@ -160,7 +151,6 @@
   font-weight: 500;
   font-size: 24px;
   line-height: 32px;
-  
   color: #333333;
 }
 .vokrug-metting-number {
@@ -197,7 +187,6 @@
   font-size: 20px;
   line-height: 32px;
   text-align: center;
-
   color: #999999;
 }
 .vokrug-teachers-meta li {
@@ -262,7 +251,6 @@ hr {
   font-weight: 400;
   font-size: 20px;
   margin-top: 8px;
-  /* margin-bottom: 40px; */
 }
 .vokrug-text.text{
   font-family: 'Open Sans';
@@ -322,7 +310,6 @@ hr {
 .vokrug-width-40 {
   max-width: 40%;
 }
-
 .vokrug-chat-font {
   font-family: 'Montserrat';
   font-style: normal;
@@ -335,14 +322,12 @@ hr {
   background-color: #0E7FD0;
   border-radius: 40px 80px 80px 20px;
   padding: 8px;
-  /* border-radius: 60px 80px 80px 0px; */
 }
 .me div{
   color: #FFFFFF;
   background: #222E3A;
   border-radius: 80px 40px 20px 80px;
   padding: 8px;
-  /* border-radius: 80px 80px 20px 80px; */
 }
 .vokrug-padding-left-2px>div:nth-child(2n) {
   padding-left: 2px;
@@ -365,23 +350,9 @@ hr {
 .vokrug-height-420 {
   height: 420px;
 }
-.vokrig-height-medium {
-  /* height: 420px; */
-}
-
 .vokrug-adv-textDecoration a {
   text-transform: none !important;
 }
-
-.vokrug-icons-hover svg {
-  /* transition: 300ms; */
-}
-
 .vokrug-icons-hover svg:hover {
-  /* opacity: 0.8; */
   filter: opacity(0.8);
 }
-
-/* li {
-  list-style-image: url('./Images/bullet.svg');
-} */

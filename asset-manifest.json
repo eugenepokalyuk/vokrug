@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vokrug/static/css/main.e1c1b95f.css",
-    "main.js": "/vokrug/static/js/main.d82653ac.js",
+    "main.css": "/vokrug/static/css/main.925018f7.css",
+    "main.js": "/vokrug/static/js/main.c3753aed.js",
     "static/js/787.ad5683b7.chunk.js": "/vokrug/static/js/787.ad5683b7.chunk.js",
     "static/media/bgPattern.png": "/vokrug/static/media/bgPattern.507439468695b0241567.png",
     "static/media/userTwo.png": "/vokrug/static/media/userTwo.b11ecc199e4a5ea1ad2f.png",
@@ -12,12 +12,12 @@
     "index.html": "/vokrug/index.html",
     "static/media/chevron-up.svg": "/vokrug/static/media/chevron-up.1fd9677bea82fca454c3.svg",
     "static/media/chevron-down.svg": "/vokrug/static/media/chevron-down.59bd19898562e872bed5.svg",
-    "main.e1c1b95f.css.map": "/vokrug/static/css/main.e1c1b95f.css.map",
-    "main.d82653ac.js.map": "/vokrug/static/js/main.d82653ac.js.map",
+    "main.925018f7.css.map": "/vokrug/static/css/main.925018f7.css.map",
+    "main.c3753aed.js.map": "/vokrug/static/js/main.c3753aed.js.map",
     "787.ad5683b7.chunk.js.map": "/vokrug/static/js/787.ad5683b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1c1b95f.css",
-    "static/js/main.d82653ac.js"
+    "static/css/main.925018f7.css",
+    "static/js/main.c3753aed.js"
   ]
 }

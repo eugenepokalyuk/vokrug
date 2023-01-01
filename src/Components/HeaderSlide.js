@@ -20,7 +20,7 @@ function Block() {
                                         <div className="uk-card vokrug-text heading muted">01.</div>
                                     </div>
                                     <div className="uk-width-expand@m uk-text-left">
-                                        <div className="uk-card vokrug-width-75">
+                                        <div className="uk-card vokrug-width-1-1">
                                             <h2 className="vokrug-text heading">Хотите построить новые отношения</h2>
                                             <p className="vokrug-text text muted">Узнаете, что является залогом здоровых и доверительных отношений и почему предыдущие отношения <br />не складывались</p>
                                         </div>
@@ -34,9 +34,9 @@ function Block() {
                                         <div className="uk-card vokrug-text heading muted">02.</div>
                                     </div>
                                     <div className="uk-width-expand@m uk-text-left">
-                                        <div className="uk-card vokrug-width-75">
+                                        <div className="uk-card vokrug-width-1-1">
                                             <h2 className="vokrug-text heading">Видите проблемы <br />в существующих отношениях</h2>
-                                            <p className="vokrug-text text muted">Поймете, почему именно эти проблемы возникли в паре и научитесь с ними справляться. Узнаете как сделать отношения лучше или как безболезненно их закончить</p>
+                                            <p className="vokrug-text text muted">Поймете, почему именно эти проблемы возникли в паре<br />и научитесь с ними справляться. Узнаете как сделать<br />отношения лучше или как безболезненно их закончить</p>
                                         </div>
                                     </div>
                                 </div>
@@ -48,9 +48,9 @@ function Block() {
                                         <div className="uk-card vokrug-text heading muted">03.</div>
                                     </div>
                                     <div className="uk-width-expand@m uk-text-left">
-                                        <div className="uk-card vokrug-width-75">
+                                        <div className="uk-card vokrug-width-1-1">
                                             <h2 className="vokrug-text heading">Хотите улучшить или поддерживать хорошие отношения</h2>
-                                            <p className="vokrug-text text muted">Научитесь глубже понимать себя и партнера. Как мягко переживать конфликты и как совместно развиваться</p>
+                                            <p className="vokrug-text text muted">Научитесь глубже понимать себя и партнера. Как мягко<br />переживать конфликты и как совместно развиваться</p>
                                         </div>
                                     </div>
                                 </div>

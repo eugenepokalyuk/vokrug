@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter+Tight&family=Montserrat:wght@400;500&family=Open+Sans&display=swap');
 .vokrug-container-header {
   background: transparent;
+  /* background-color: red; */
 }
 .uk-container-vokrug-pattern {
   background: url(./Images/bgPattern.png) !important;
@@ -66,7 +67,8 @@
   border-radius: 10px;
   color: #fff;
   font-family: 'Open Sans';
-  padding: 20px 26px;
+  padding: 20px 0px;
+  /* padding: 20px 26px; */
   font-size: 20px;
   line-height: 28px;
   border-radius: 10px;
@@ -317,17 +319,73 @@ hr {
   font-size: 24px;
   line-height: 32px;
 }
+.me-icon {
+  width: 80px;
+  height: 80px;
+
+  text-align: center;
+
+  color: #fff;
+  background: #33765F;
+  
+  /* padding: 25px 30px; */
+  border-radius: 80px;
+
+  position: relative;
+  left: 125px;
+  bottom: -5px;
+}
 .guest div {
   color: #FFFFFF;
   background-color: #0E7FD0;
-  border-radius: 40px 80px 80px 20px;
+  border-radius: 80px 80px 80px 0px;
   padding: 8px;
 }
+.uk-card {
+  position: relative;
+  z-index: 1;
+}
+.guest .uk-card:after, .me .uk-card:after {
+  content: "";
+  width: 25px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+}
+.guest .uk-card:after {
+  content: "";
+  background: #0E7FD0;
+  left: -20px;
+  clip-path: polygon(100% 70%, 0% 100%, 100% 100%);
+}
+
 .me div{
   color: #FFFFFF;
   background: #222E3A;
-  border-radius: 80px 40px 20px 80px;
+  border-radius: 80px 80px 80px 80px;
   padding: 8px;
+}
+.me:last-child div:first-child{
+  left: 100px;
+  border-radius: 80px 80px 0px 80px;
+}
+.me:last-child div:last-child{
+  background: transparent;
+}
+.me:last-child .uk-card:after {
+  content: "";
+  background: #222E3A;
+  right: -20px;
+  clip-path: polygon(0 70%, 0% 100%, 100% 100%);
+}
+.vokrug-heading {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 56px;
+  text-align: center;
+  color: #000000;
 }
 .vokrug-padding-left-2px>div:nth-child(2n) {
   padding-left: 2px;
@@ -336,10 +394,13 @@ hr {
   padding: 18px;
 }
 .vokrug-scale-1-2 {
-  scale: 1.12;
+  scale: 1.2;
 }
 .vokrug-margin-top-2px {
   margin-top: 2px !important;
+}
+.vokrug-margin-top-large {
+  margin-top: 128px;
 }
 .vokrug-margin-left-2px {
   margin-left: 2px;
@@ -367,5 +428,6 @@ hr {
 }
 
 .svg_test svg {
-    scale: 0.93;
+  margin-left: 10px;
+  scale: 1;
 }

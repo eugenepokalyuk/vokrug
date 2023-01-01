@@ -6,25 +6,22 @@ const blockImageStyle = {
 }
 const imageStyle = {
     position: "absolute",
-    left: "120px",
-    bottom: "-50px",
+    // left: "120px",
+    bottom: "-10%",
 }
 
 const logoStyle = {
     "letterSpacing": "5px"
 }
-
-const h1Style = {
-    "position": "relative",
-    "z-index": 1
+const width60 = {
+    width: "60% !important",
 }
-
-const svgStyle = {
-    "position": "absolute",
-    "transform": "translate(-13px, -20%)",
-    "z-index": -1
+const width40 = {
+    width: "40% !important",
 }
-
+const maxWidth = {
+    "maxWidth": "395px"
+}
 function Header() {
     return(
         <div className='uk-container vokrug-container-header'>
@@ -42,29 +39,28 @@ function Header() {
 
             <div className='uk-margin uk-padding-small uk-margin-large-top uk-light'>
 
-                {/* <div className="vokrug-child-width-1-2@s" data-uk-grid> */}
-                <div className="uk-child-width-1-2@s uk-text-center uk-flex uk-flex-middle" data-uk-grid>
+                <div className="uk-text-center uk-flex uk-flex-left" data-uk-grid>
                     <div>
                         <div className="uk-card">
                             <h1 className='uk-text-left vokrug-header-text vokrug-header-text-test h1_test'>
-                                Онлайн-группы поддержки с опытным психологом на тему
+                                Онлайн-группы<br />поддержки с опытным<br />психологом<br /> на тему
                                 <div className="uk-inline svg_test">
                                     <svg width="327" height="94" viewBox="0 0 327 94" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M190.999 1C190.999 1 13.3874 8.51637 1.57862 48.4155C-14.6654 103.3 325.999 112.254 325.999 48.4155C325.999 8.01782 148.09 14.1759 87.4991 29" stroke="#FFDE2F" strokeWidth="2" strokeLinecap="round"/>
                                     </svg>
-                                    <div className="uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">отношения</div>
+                                    <div className="uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle"><i>отношения</i></div>
                                 </div>
                             </h1>
 
                             <p className='uk-text-left vokrug-body-text'>До 8 человек <span>·</span> 90 мин раз в неделю <span>·</span> От 1000 ₽</p>
                             <div className='uk-flex uk-flex-column vokrug-width-1-2 vokrug-margin-large-top'>
-                                <a className="dark vokrug-button" href="#a">Записаться на бесплатную встречу</a>
+                                <a className="dark vokrug-button" style={maxWidth} href="#a">Записаться на бесплатную встречу</a>
                                 <p className='vokrug-text-meta uk-text-center uk-margin-small-top'>На встрече психолог расскажет как проходят групповые сессии и уточнит ваш запрос.</p>
                             </div>
                         </div>
                     </div>
                     
-                    <div className="uk-inline" style={blockImageStyle} data-uk-scrollspy="cls: uk-animation-slide-bottom; delay: 300; repeat: false">
+                    <div className="uk-inline uk-align-center uk-margin-remove-top" data-uk-scrollspy="cls: uk-animation-slide-bottom; delay: 300; repeat: false">
                         <img src={images} width="300" height="1200" alt="123" />
                         <div className="uk-position-bottom-left uk-overlay uk-padding-remove" style={imageStyle}>
                             <img src={imagesSmall} width="150" alt="123" />

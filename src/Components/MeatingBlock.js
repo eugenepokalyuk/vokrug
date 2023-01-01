@@ -1,12 +1,17 @@
 import React from 'react';
-
+const blockSize = {
+    width: "575px !important",
+    height: "420px !important",
+    maxWidth: "575px !important",
+    maxHeight: "420px !important",
+}
 function Block() {
     return(
-    <div className='uk-container uk-margin-large-top vokrug-width-90'>
+    <div className='uk-container vokrug-margin-top-large'>
         <h1 className='uk-text-center vokrug-h2-text uk-margin-large-bottom'>Как проходят встречи</h1>
         
         <div className="uk-grid-collapse uk-child-width-1-2@s uk-grid-match" data-uk-grid>
-            <div>
+            <div style={blockSize}>
                 <div className="uk-card vokrug-padding-medium uk-card-default uk-container-vokrug vokrug-height-420 vokrug-shadow-off">
                     <div className="uk-child-width-1-2@s uk-grid-match vokrug-padding-medium uk-height-1-1" data-uk-grid>
                         <div>
@@ -28,7 +33,7 @@ function Block() {
                 </div>
             </div>
 
-            <div>
+            <div style={blockSize}>
                 <div className="uk-card vokrug-padding-medium uk-card-default uk-container-vokrug vokrug-height-420 vokrug-margin-left-2px vokrug-shadow-off">
                     <div className="uk-child-width-1-2@s uk-grid-match vokrug-padding-medium uk-height-1-1 vokrug-shadow-off" data-uk-grid>
                         <div>
@@ -52,7 +57,7 @@ function Block() {
         </div>
 
         <div className="uk-grid-collapse uk-child-width-1-2@s uk-grid-match vokrug-margin-top-2px" data-uk-grid>
-            <div>
+            <div style={blockSize}>
                 <div className="uk-card vokrug-padding-medium uk-card-default uk-container-vokrug vokrug-height-420 vokrug-shadow-off">
                     <div className="uk-child-width-1-2@s uk-grid-match vokrug-padding-medium uk-height-1-1" data-uk-grid>
                         <div>
@@ -74,7 +79,7 @@ function Block() {
                 </div>
             </div>
 
-            <div>
+            <div style={blockSize}>
                 <div className="uk-card vokrug-padding-medium uk-card-default uk-container-vokrug vokrug-height-420 vokrug-margin-left-2px vokrug-shadow-off">
                     <div className="uk-child-width-1-2@s uk-grid-match vokrug-padding-medium uk-height-1-1" data-uk-grid>
                         <div>

@@ -6,8 +6,8 @@ const blockImageStyle = {
 }
 const imageStyle = {
     position: "absolute",
-    // left: "120px",
-    // bottom: "-50px",
+    left: "120px",
+    bottom: "-50px",
 }
 
 const logoStyle = {

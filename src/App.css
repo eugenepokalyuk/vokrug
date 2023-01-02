@@ -252,7 +252,7 @@
 }
 hr {
   border-color: rgba(51, 51, 51, 0.08);
-  margin: 40px 0px;
+  margin: 16px 0px !important;
 }
 .vokrug-border-bottom {
   border-bottom: 1px solid rgba(51, 51, 51, 0.08);
@@ -459,8 +459,28 @@ hr {
   color: #999999;
 }
 .vokrug-type-disc li {
+  position: relative !important;
+  /* list-style-image: url(./Images/bullet.svg); */
+}
+.vokrug-type-disc li::before {
+  /* list-style-image:; */
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -50px;
+  width: 8px;
+  height: 8px;
+  background-image: url(./Images/bullet.svg);
+  background-repeat: no-repeat;
+  padding: 12px;
+  margin-left: 20px;
+}
+/* .vokrug-type-disc li {
   list-style-image: url(./Images/bullet.svg);
 }
+.vokrug-type-disc li {
+  list-style-image: url(./Images/bullet.svg);
+} */
 .vokrug-card-default {
   background: #FFFFFF;
   border-radius: 32px;

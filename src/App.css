@@ -96,6 +96,7 @@
 .vokrug-button.light:hover {
   background: rgba(255, 255, 255, 0.16);
   border: 1px solid rgba(255, 255, 255, 0.16);
+  cursor: pointer;
 }
 
 .vokrug-margin-large-top {
@@ -448,12 +449,19 @@ hr {
   margin-left: 10px;
   scale: 1;
 }
-
-ul {
-  margin: 0 0 0 32px !important;
-  line-height: 1.5 !important
+.vokrug-type-disc {
+  margin: 0px 20px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #999999;
 }
-
-.vokrug-list-disc-to-svg li{
+.vokrug-type-disc li {
   list-style-image: url(./Images/bullet.svg);
+}
+.vokrug-card-default {
+  background: #FFFFFF;
+  border-radius: 32px;
 }

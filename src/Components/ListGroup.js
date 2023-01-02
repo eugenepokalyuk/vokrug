@@ -30,38 +30,40 @@ function Block() {
                 <p className='vokrug-accordion-text'>Ведущий создаст доверительные отношения среди участников группы,<br />что поможет эффективно взаимодействовать друг с другом</p>
             </div>
             <div className="uk-child-width-1-3@m" data-uk-grid>
+
                 <div style={width100}>
-                    <div className="uk-card uk-card-default vokrug-borderRadius-32">
+                    <div className="vokrug-card-default vokrug-borderRadius-32">
                         <div className="uk-card-media-top">
                             <img src={userOne} style={width100perc} alt="" />
                         </div>
-
+                        
                         <div>
                             <h2 className='uk-text-center uk-margin-medium-top uk-margin-remove-bottom'>Снежана</h2>
-                            <ul className="uk-list vokrug-list-disc-to-svg" style={padding20}>
-                                <li className='uk-text-middle'>9 лет опыта.</li>
-                                <li className='uk-text-middle'>Психолог, психоаналитик, сертифицированный специалист Европейской Конфедерации Психоаналитической Психотерапии.</li>
-                                <li className='uk-text-middle'>Более 3000 индивидуальных и групповых встреч.</li>
-                                <li className='uk-text-middle'>Сертификат общественной аккредитации об успешном завершении курса Основы группового анализа.</li>
+                            <ul className="uk-list vokrug-type-disc" style={padding20}>
+                                <li>9 лет опыта.</li>
+                                <li>Психолог, психоаналитик, сертифицированный специалист Европейской Конфедерации Психоаналитической Психотерапии.</li>
+                                <li>Более 3000 индивидуальных и групповых встреч.</li>
+                                <li>Сертификат общественной аккредитации об успешном завершении курса Основы группового анализа.</li>
                             </ul>
                         </div>
 
                     </div>
                 </div>
 
+
                 <div style={width100}>
-                    <div className="uk-card uk-card-default vokrug-borderRadius-32">
+                    <div className="vokrug-card-default vokrug-borderRadius-32">
                         <div className="uk-card-media-top">
                             <img src={userTwo} style={width100perc} alt="" />
                         </div>
                         
                         <div>
-                            <h2 className='uk-text-center uk-margin-medium-top uk-margin-remove-bottom'>Снежана</h2>
-                            <ul className="uk-list vokrug-list-disc-to-svg" style={padding20}>
-                                <li className='uk-text-middle'>9 лет опыта.</li>
-                                <li className='uk-text-middle'>Психолог, психоаналитик, сертифицированный специалист Европейской Конфедерации Психоаналитической Психотерапии.</li>
-                                <li className='uk-text-middle'>Более 3000 индивидуальных и групповых встреч.</li>
-                                <li className='uk-text-middle'>Сертификат общественной аккредитации об успешном завершении курса Основы группового анализа.</li>
+                            <h2 className='uk-text-center uk-margin-medium-top uk-margin-remove-bottom'>Людмила</h2>
+                            <ul className="uk-list vokrug-type-disc" style={padding20}>
+                                <li>8 лет опыта.</li>
+                                <li>Психолог, психоаналитик, сертифицированный специалист Европейской Конфедерации Психоаналитической Психотерапии.</li>
+                                <li>Более 3000 индивидуальных и групповых встреч.</li>
+                                <li>Сертификат общественной аккредитации об успешном завершении курса Основы группового анализа.</li>
                             </ul>
                         </div>
 
@@ -69,18 +71,18 @@ function Block() {
                 </div>
 
                 <div style={width100}>
-                    <div className="uk-card uk-card-default vokrug-borderRadius-32">
+                    <div className="vokrug-card-default vokrug-borderRadius-32">
                         <div className="uk-card-media-top">
                             <img src={userThree} style={width100perc} alt="" />
                         </div>
                         
                         <div>
-                            <h2 className='uk-text-center uk-margin-medium-top uk-margin-remove-bottom'>Снежана</h2>
-                            <ul className="uk-list vokrug-list-disc-to-svg" style={padding20}>
-                                <li className='uk-text-middle'>9 лет опыта.</li>
-                                <li className='uk-text-middle'>Психолог, психоаналитик, сертифицированный специалист Европейской Конфедерации Психоаналитической Психотерапии.</li>
-                                <li className='uk-text-middle'>Более 3000 индивидуальных и групповых встреч.</li>
-                                <li className='uk-text-middle'>Сертификат общественной аккредитации об успешном завершении курса Основы группового анализа.</li>
+                            <h2 className='uk-text-center uk-margin-medium-top uk-margin-remove-bottom'>Пётр</h2>
+                            <ul className="uk-list vokrug-type-disc" style={padding20}>
+                                <li>9 лет опыта.</li>
+                                <li>Психолог, психоаналитик, сертифицированный специалист Европейской Конфедерации Психоаналитической Психотерапии.</li>
+                                <li>Более 3000 индивидуальных и групповых встреч.</li>
+                                <li>Сертификат общественной аккредитации об успешном завершении курса Основы группового анализа.</li>
                             </ul>
                         </div>
 

@@ -1,9 +1,11 @@
 import React from 'react';
 import images from "../Images/header-image.png"
 import imagesSmall from "../Images/header-image-small.png"
-const blockImageStyle = {
-    position: "relative",
-}
+import cup from "../Images/cup.png"
+
+// const blockImageStyle = {
+//     position: "relative",
+// }
 const imageStyle = {
     position: "absolute",
     // left: "120px",
@@ -17,9 +19,18 @@ const maxWidth = {
     "maxWidth": "395px",
     // "padding":"8px"
 }
+const width760 = {
+    maxWidth: "760px",
+    width: "760px",
+}
+
+const backColorGray = {
+    background: "#F4F2F0"
+}
 function Header() {
     return(
         <div className='uk-container vokrug-container-header'>
+
             <nav className="uk-navbar uk-margin uk-padding-small uk-light uk-text-large" data-uk-navbar>
                 <div className="uk-navbar-left">
                     <ul className="uk-navbar-nav vokrug-text-logo vokrug-text-white">
@@ -28,7 +39,47 @@ function Header() {
                 </div>
 
                 <div className="uk-navbar-right">
-                    <a href="https://www.google.com" target="_blank" rel="noreferrer" className='light vokrug-button'>Записаться на бесплатную встречу</a>
+
+                    <button className="light vokrug-button" type="button" data-uk-toggle="target: #modal-example">Записаться на бесплатную встречу</button>
+
+                    <div id="modal-example" data-uk-modal>
+                        <div className="uk-modal-dialog" style={width760}>
+                            <div className="uk-grid-collapse uk-child-width-expand@s uk-text-center" data-uk-grid>
+                                <div>
+                                    <div className="uk-background-muted uk-padding">
+                                        <h2 className='uk-modal-title uk-text-left'>Запись <br />на бесплатную<br />консультацию<br />с психологом</h2>
+
+                                        <div className="uk-margin">
+                                            <input className="uk-input uk-text-center" type="text" placeholder="Ваше имя" aria-label="Input" />
+                                        </div>
+
+                                        <div className="uk-margin uk-width-1-1">
+                                            <input className="uk-input uk-text-center" type="text" placeholder="Телефон" aria-label="Input" />
+                                        </div>
+
+                                        <div className="uk-margin uk-text-center">
+                                            <button className="uk-button uk-button-default uk-width-1-1">Записаться</button>
+                                        </div>
+
+                                        <div className="uk-margin uk-text-left">
+                                            <p>Вводя свой номер, вы принимаете условия пользовательского соглашения и даёте согласие на обработку персональных данных.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style={backColorGray}>
+                                    <div className="uk-padding uk-dark">
+                                        <h3 className='uk-text-left'>Что будет<br />дальше</h3>
+                                        <ul className='uk-list uk-list-disc uk-text-left'>
+                                            <li>С вами свяжется менеджер чтобы<br />договориться о дате и времени<br />бесплатной консультации.</li>
+                                            <li>За 8 часов до начала встречи<br />мы вам напомним о ней<br />в месенджере и пришлем<br />ссылку на Zoom.</li>
+                                        </ul>
+                                        <img className="uk-align-right" src={cup} alt="123" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </nav>
 
@@ -49,7 +100,8 @@ function Header() {
 
                             <p className='uk-text-left vokrug-body-text'>До 8 человек <span>·</span> 90 мин раз в неделю <span>·</span> От 1000 ₽</p>
                             <div className='uk-flex uk-flex-column vokrug-width-1-2 vokrug-margin-large-top'>
-                                <a className="dark vokrug-button" style={maxWidth} href="#a">Записаться на бесплатную встречу</a>
+                                {/* <button className="dark vokrug-button" type="button" data-uk-toggle="target: #modal-example">Записаться на бесплатную встречу</button> */}
+                                <a className="dark vokrug-button" style={maxWidth} data-uk-toggle="target: #modal-example">Записаться на бесплатную встречу</a>
                                 <p className='vokrug-text-meta uk-text-center uk-margin-small-top' style={maxWidth}>На встрече психолог расскажет как проходят групповые сессии и уточнит ваш запрос.</p>
                             </div>
                         </div>
@@ -65,6 +117,7 @@ function Header() {
                 </div>
 
             </div>
+
         </div>
         );
 }

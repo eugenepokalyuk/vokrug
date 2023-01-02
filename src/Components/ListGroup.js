@@ -35,6 +35,7 @@ function Block() {
                         <div className="uk-card-media-top">
                             <img src={userOne} style={width100perc} alt="" />
                         </div>
+
                         <div>
                             <h2 className='uk-text-center uk-margin-medium-top uk-margin-remove-bottom'>Снежана</h2>
                             <ul className="uk-list vokrug-list-disc-to-svg" style={padding20}>
@@ -44,6 +45,45 @@ function Block() {
                                 <li className='uk-text-middle'>Сертификат общественной аккредитации об успешном завершении курса Основы группового анализа.</li>
                             </ul>
                         </div>
+
+                    </div>
+                </div>
+
+                <div style={width100}>
+                    <div className="uk-card uk-card-default vokrug-borderRadius-32">
+                        <div className="uk-card-media-top">
+                            <img src={userTwo} style={width100perc} alt="" />
+                        </div>
+                        
+                        <div>
+                            <h2 className='uk-text-center uk-margin-medium-top uk-margin-remove-bottom'>Снежана</h2>
+                            <ul className="uk-list vokrug-list-disc-to-svg" style={padding20}>
+                                <li className='uk-text-middle'>9 лет опыта.</li>
+                                <li className='uk-text-middle'>Психолог, психоаналитик, сертифицированный специалист Европейской Конфедерации Психоаналитической Психотерапии.</li>
+                                <li className='uk-text-middle'>Более 3000 индивидуальных и групповых встреч.</li>
+                                <li className='uk-text-middle'>Сертификат общественной аккредитации об успешном завершении курса Основы группового анализа.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div style={width100}>
+                    <div className="uk-card uk-card-default vokrug-borderRadius-32">
+                        <div className="uk-card-media-top">
+                            <img src={userThree} style={width100perc} alt="" />
+                        </div>
+                        
+                        <div>
+                            <h2 className='uk-text-center uk-margin-medium-top uk-margin-remove-bottom'>Снежана</h2>
+                            <ul className="uk-list vokrug-list-disc-to-svg" style={padding20}>
+                                <li className='uk-text-middle'>9 лет опыта.</li>
+                                <li className='uk-text-middle'>Психолог, психоаналитик, сертифицированный специалист Европейской Конфедерации Психоаналитической Психотерапии.</li>
+                                <li className='uk-text-middle'>Более 3000 индивидуальных и групповых встреч.</li>
+                                <li className='uk-text-middle'>Сертификат общественной аккредитации об успешном завершении курса Основы группового анализа.</li>
+                            </ul>
+                        </div>
+
                     </div>
                 </div>
 

@@ -13,14 +13,9 @@ const imageStyle = {
 const logoStyle = {
     "letterSpacing": "5px"
 }
-const width60 = {
-    width: "60% !important",
-}
-const width40 = {
-    width: "40% !important",
-}
 const maxWidth = {
-    "maxWidth": "395px"
+    "maxWidth": "395px",
+    // "padding":"8px"
 }
 function Header() {
     return(
@@ -55,7 +50,7 @@ function Header() {
                             <p className='uk-text-left vokrug-body-text'>До 8 человек <span>·</span> 90 мин раз в неделю <span>·</span> От 1000 ₽</p>
                             <div className='uk-flex uk-flex-column vokrug-width-1-2 vokrug-margin-large-top'>
                                 <a className="dark vokrug-button" style={maxWidth} href="#a">Записаться на бесплатную встречу</a>
-                                <p className='vokrug-text-meta uk-text-center uk-margin-small-top'>На встрече психолог расскажет как проходят групповые сессии и уточнит ваш запрос.</p>
+                                <p className='vokrug-text-meta uk-text-center uk-margin-small-top' style={maxWidth}>На встрече психолог расскажет как проходят групповые сессии и уточнит ваш запрос.</p>
                             </div>
                         </div>
                     </div>

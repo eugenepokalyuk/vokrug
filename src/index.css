@@ -13,8 +13,15 @@ code {
 }
 
 #root {
-  /* background-color: #457460; */
+  /* background-color: #E5E5E5; */
+  /* background-color: #33765F; */
   /* background-color: #eee; */
   /* background: linear-gradient(to bottom, red, yellow 0%, blue 75%, violet 0%); */
   background: linear-gradient(to bottom, #33765F 10.3%, #E5E5E5 0%, #E5E5E5 100%);
+}
+
+@media only screen and (max-width: 600px) {
+  #root {
+    background: linear-gradient(to bottom, #33765F 100%, #E5E5E5 0%, #E5E5E5 100%);
+  }
 }

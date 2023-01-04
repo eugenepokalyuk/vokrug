@@ -449,6 +449,17 @@ hr {
   margin-left: 10px;
   scale: 1;
 }
+
+.svg_test-mobile {
+  position: absolute; 
+  transform: translate(-20px, -36%); 
+  z-index: -1;
+}
+
+.svg_test-mobile svg {
+margin-left: 10px;
+scale: 1;
+}
 .vokrug-type-disc {
   margin: 0px 20px;
   font-family: 'Open Sans';
@@ -485,3 +496,50 @@ hr {
   background: #FFFFFF;
   border-radius: 32px;
 }
+
+
+/* #region [ mobile ] */
+.vokrug-header-1-mobile {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px !important;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  letter-spacing: 3px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #FFFFFF !important;
+}
+.vokrug-h1-mobile {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #FFFFFF !important;
+}
+.vokrug-h2-mobile {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #FFFFFF !important;
+}
+.vokrug-p-mobile {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: rgba(255, 255, 255, 0.56) !important;
+
+}
+/* #endregion */

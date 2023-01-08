@@ -61,28 +61,28 @@ function Block() {
             <div className='vokrug-mobile-container uk-hidden@l'>
                 <div className="uk-grid-collapse uk-child-width-expand@s uk-text-center uk-padding" data-uk-grid>
                     <div>
-                        <div className="vokrug-padding-small vokrug-text-mobile-logo">
-                            вокруг
+                        <div className="vokrug-padding-small">
+                            <a href="#" className='vokrug-text-mobile-logo'>вокруг</a>
                         </div>
                     </div>
                     <div>
                         <div className="vokrug-padding-small vokrug-text-link">
-                            2022 © Vokrug.space
+                            <a href="#1">2022 © Vokrug.space</a>
                         </div>
                     </div>
                     <div>
                         <div className="vokrug-padding-small vokrug-text-link">
-                            ask@vokrug.space
+                        <a href="#2">ask@vokrug.space</a>
                         </div>
                     </div>
                     <div>
                         <div className="vokrug-padding-small vokrug-text-link">
-                            Пользовательское соглашение
+                            <a href="#3">Пользовательское соглашение</a>
                         </div>
                     </div>
                     <div>
                         <div className="vokrug-padding-small vokrug-text-link">
-                            Политика конфиденциальности
+                            <a href="#4">Политика конфиденциальности</a>
                         </div>
                     </div>
                 </div>

@@ -30,15 +30,28 @@ code {
 
 @media only screen and (max-width: 1024px) {
   #root {
-    background: linear-gradient(to bottom, #33765F 40%, #E5E5E5 0%, #E5E5E5 100%);
+    background: linear-gradient(to bottom, #33765F 23%, #E5E5E5 0%, #E5E5E5 100%);
+  }
+}
+
+@media only screen and (max-width: 834px) {
+  #root {
+    background: linear-gradient(to bottom, #33765F 21%, #E5E5E5 0%, #E5E5E5 100%);
   }
 }
 
 @media only screen and (max-width: 800px) {
   #root {
-    background: linear-gradient(to bottom, #33765F 40%, #E5E5E5 0%, #E5E5E5 100%);
+    background: linear-gradient(to bottom, #33765F 21%, #E5E5E5 0%, #E5E5E5 100%);
   }
 }
+
+@media only screen and (max-width: 768px) {
+  #root {
+    background: linear-gradient(to bottom, #33765F 20%, #E5E5E5 0%, #E5E5E5 100%);
+  }
+}
+
 
 @media only screen and (max-width: 600px) {
   #root {

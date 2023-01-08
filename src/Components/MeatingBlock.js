@@ -1,10 +1,22 @@
 import React from 'react';
+
+import userTwo from "../Images/userTwo.png"
+
 const blockSize = {
     width: "575px !important",
     height: "420px !important",
     maxWidth: "575px !important",
     maxHeight: "420px !important",
 }
+
+const style = {
+    background: "#fff",
+    width: "100%",
+    height: "100%",
+    color: "#000",
+    borderRadius: "16px"
+}
+
 function Block() {
     return(
         <div>            
@@ -101,6 +113,74 @@ function Block() {
                             </div>
                         </div>
                     </div>
+
+                </div>
+            </div>
+            <div className='vokrug-mobile-container vokrug-margin-top-large uk-hidden@l'>
+                <h1>Как проходят встречи</h1>
+                <div className="uk-position-relative uk-visible-toggle uk-light" tabIndex="-1" data-uk-slider="center: true">
+                    <ul className="uk-slider-items uk-grid">
+                        
+                        <li className="uk-width-3-4">
+                            <div className="uk-panel" style={style}>
+                                <div className="uk-panel uk-flex uk-flex-center uk-child-width-expand uk-padding-small">
+                                    <div className="uk-card uk-text-left">Приветствие</div>
+                                    <div className="uk-card uk-text-right vokrug-text-gray">01.</div>
+                                </div>
+                                <div className="uk-panel uk-flex uk-flex-center uk-child-width-expand uk-position-bottom uk-padding-small">
+                                    <div className="uk-card vokrug-text-gray">
+                                        Научитесь глубже понимать себя и партнера. Как мягко переживать конфликты и как совместно развиваться
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li className="uk-width-3-4">
+                            <div className="uk-panel" style={style}>
+                                <div className="uk-panel uk-flex uk-flex-center uk-child-width-expand uk-padding-small">
+                                    <div className="uk-card uk-text-left">Активная фаза</div>
+                                    <div className="uk-card uk-text-right vokrug-text-gray">02.</div>
+                                </div>
+                                <div className="uk-panel uk-flex uk-flex-center uk-child-width-expand uk-position-bottom uk-padding-small">
+                                    <div className="uk-card vokrug-text-gray">
+                                        Ведущий группы задает тему встречи и помогает каждому участнику высказаться, поделиться своим опытом и мнением.
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li className="uk-width-3-4">
+                            <div className="uk-panel" style={style}>
+                                <div className="uk-panel uk-flex uk-flex-center uk-child-width-expand uk-padding-small">
+                                    <div className="uk-card uk-text-left">Вопросы и практика</div>
+                                    <div className="uk-card uk-text-right vokrug-text-gray">03.</div>
+                                </div>
+                                <div className="uk-panel uk-flex uk-flex-center uk-child-width-expand uk-position-bottom uk-padding-small">
+                                    <div className="uk-card vokrug-text-gray">
+                                        Участники задают вопросы психологу, делятся жизненным опытом, обсуждают рекомендации и пробуют применить на занятии советы.
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li className="uk-width-3-4">
+                            <div className="uk-panel" style={style}>
+                                <div className="uk-panel uk-flex uk-flex-center uk-child-width-expand uk-padding-small">
+                                    <div className="uk-card uk-text-left">Итоги</div>
+                                    <div className="uk-card uk-text-right vokrug-text-gray">04.</div>
+                                </div>
+                                <div className="uk-panel uk-flex uk-flex-center uk-child-width-expand uk-position-bottom uk-padding-small">
+                                    <div className="uk-card vokrug-text-gray">
+                                        Каждый участник рассказывает, что полезного вынес, что понравилось, и как он себя чувствует после встречи. А чтобы закрепить тему ведущий задаёт домашнее задание.
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <a className="uk-position-center-left uk-position-small uk-hidden-hover" href="#1" data-uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a className="uk-position-center-right uk-position-small uk-hidden-hover" href="#2" data-uk-slidenav-next uk-slider-item="next"></a>
 
                 </div>
             </div>

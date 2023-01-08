@@ -123,7 +123,7 @@ function Header() {
                 </div>
             </div>
             
-            <div className='uk-section uk-hidden@l vokrug-background-green' style={maxWidth100}>
+            <div className='vokrug-mobile-container uk-hidden@l vokrug-background-green'>
                 
                 <nav data-uk-navbar>
                     <div className="uk-navbar-left">
@@ -139,12 +139,12 @@ function Header() {
 
                 <div className="uk-grid-collapse uk-child-width-expand uk-text-center" data-uk-grid>
                     <div>
-                        <div className='uk-padding'>
+                        <div className='vokrug-padding-mobile-small'>
                             <img src={imagesSmall} alt="" />
                         </div>
                     </div>
                     <div>
-                        <div className='uk-padding'>
+                        <div className='vokrug-padding-mobile-small'>
                             <img src={images} alt="" />
                         </div>
                     </div>
@@ -162,15 +162,6 @@ function Header() {
                                     <div className="uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle"><i>отношения</i></div>
                                 </span>
                             </h1>
-                            {/* <h1 className='uk-text-left vokrug-h1-mobile h1_test'>
-                                Онлайн-группы<br />поддержки с опытным<br />психологом<br /> на тему 
-                                <span className='uk-inline svg-test'>
-                                    <svg width="200" height="94" viewBox="0 0 327 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M190.999 1C190.999 1 13.3874 8.51637 1.57862 48.4155C-14.6654 103.3 325.999 112.254 325.999 48.4155C325.999 8.01782 148.09 14.1759 87.4991 29" stroke="#FFDE2F" strokeWidth="2" strokeLinecap="round"/>
-                                    </svg>
-                                    <i className='uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle'>отношения</i>
-                                </span> 
-                            </h1> */}
                             <p className='vokrug-h2-mobile uk-margin-large-top'>Группы до 8 человек. 90 мин <br />раз в неделю. От 1000 ₽</p>
                             <a className="dark vokrug-button uk-align-center uk-text-center" href="button" data-uk-toggle="target: #modal-example">Записаться на бесплатную встречу</a>
                             <p className='uk-text-center vokrug-p-mobile '>На встрече психолог расскажет как проходят<br />групповые сессии и уточнит ваш запрос</p>
@@ -178,17 +169,6 @@ function Header() {
                     </div>
                     
                 </div>
-                {/* <div className="uk-grid-collapse uk-child-width-expand uk-text-left" data-uk-grid>
-                    <div>
-                        <div className="uk-text-center">
-                            <button className="uk-button uk-button-default uk-width-1-1">Записаться</button>
-                        </div>
-                    </div>
-                </div> */}
-
-                
-
-                {/* <h1 className='vokrug-header-1-mobile'>вокруг</h1> */}
             </div>
         </div>
         );

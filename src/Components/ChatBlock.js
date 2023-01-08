@@ -12,40 +12,6 @@ function Block() {
         <div>            
             <div className='uk-container uk-container-vokrug uk-container-vokrug-pattern uk-margin-large-top uk-padding uk-visible@l'>
                 <div className='uk-align-center' style={size760}>
-                    {/* <div className="uk-container uk-width-large">
-                        <div className="uk-card uk-card-default uk-border-rounded uk-margin-large-top">
-                            <div className="uk-card-body uk-padding-small">
-                                <div className="guest uk-grid-small uk-flex-bottom uk-flex-left" data-uk-grid>
-                                <div className="uk-width-auto">
-                                    <div className="uk-card uk-card-body uk-card-small uk-card-default uk-border-rounded">
-                                    <p className="uk-margin-remove">Hey dude!</p>
-                                    </div>
-                                </div>
-                                </div>
-
-                                <div className="me uk-grid-small uk-flex-bottom uk-flex-right uk-text-right" data-uk-grid>
-                                    <div className="uk-width-auto">
-                                        <div className="uk-card uk-card-body uk-card-small uk-card-primary uk-border-rounded">
-                                            <p className="uk-margin-remove">Hi brow :)</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="me uk-grid-small uk-flex-bottom uk-flex-right uk-text-right" data-uk-grid>
-                                        <div className="uk-card uk-card-body uk-card-small uk-card-primary uk-border-rounded">
-                                            <p className="uk-margin-remove">Hi brow :)</p>
-                                        </div>
-                                    <div className="uk-width-auto">
-                                        <h1 class="me-icon uk-flex uk-flex-center uk-flex-middle"><span>B</span></h1>
-                                    </div>
-                                </div>
-                        </div>
-
-                        </div>
-                    </div> */}
-
-                    {/* <h1 class="me-icon uk-flex uk-flex-center uk-flex-middle"><span>B</span></h1> */}
-
                     <div className="uk-card uk-border-rounded">
                         <div className="uk-card-body uk-padding-small" data-uk-scrollspy="cls: uk-animation-slide-bottom; target: .guest, .me; delay: 300; repeat: false">
                             <div className="guest uk-grid-small uk-flex-bottom uk-flex-left" data-uk-grid>
@@ -86,11 +52,13 @@ function Block() {
                                     <h1 className="me-icon uk-flex uk-flex-center uk-flex-middle" style={pos}><span>B</span></h1>
                                 </div>
                             </div>
-
-                            
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div className='vokrug-mobile-container vokrug-margin-top-large'>
+                <h1>Chat</h1>
             </div>
         </div>
         );

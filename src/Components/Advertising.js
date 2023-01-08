@@ -17,6 +17,12 @@ function Block() {
                     </div>
                 </div>
             </div>
+
+            <div className='vokrug-mobile-container uk-hidden@l'>
+                <h1>Поможем вам позаботится о себе и своих отношениях</h1>
+                <a className="dark vokrug-button uk-align-center uk-text-center" href="button" data-uk-toggle="target: #modal-example">Записаться на бесплатную встречу</a>
+                <p className='uk-text-center uk-margin-remove-top uk-margin-remove-bottom'>На встрече психолог расскажет как проходят групповые сессии и уточнит ваш запрос</p>
+            </div>
         </div>
         );
 }

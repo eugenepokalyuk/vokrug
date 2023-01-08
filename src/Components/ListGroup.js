@@ -102,7 +102,7 @@ function Block() {
                 </div>
             </div>
 
-            <div className='uk-hidden@l uk-margin-large-top'>
+            <div className='vokrug-mobile-container uk-hidden@l uk-margin-large-top'>
                 <h1>Наши эксперты</h1>
                 <p>Ведущий создаст доверительные отношения среди участников группы, что поможет эффективно взаимодействовать друг с другом.</p>
                 <div>

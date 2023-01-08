@@ -58,6 +58,35 @@ function Block() {
 
                 </nav> */}
             </div>
+            <div className='vokrug-mobile-container uk-hidden@l'>
+                <div className="uk-grid-collapse uk-child-width-expand@s uk-text-center uk-padding" data-uk-grid>
+                    <div>
+                        <div className="vokrug-padding-small vokrug-text-mobile-logo">
+                            вокруг
+                        </div>
+                    </div>
+                    <div>
+                        <div className="vokrug-padding-small vokrug-text-link">
+                            2022 © Vokrug.space
+                        </div>
+                    </div>
+                    <div>
+                        <div className="vokrug-padding-small vokrug-text-link">
+                            ask@vokrug.space
+                        </div>
+                    </div>
+                    <div>
+                        <div className="vokrug-padding-small vokrug-text-link">
+                            Пользовательское соглашение
+                        </div>
+                    </div>
+                    <div>
+                        <div className="vokrug-padding-small vokrug-text-link">
+                            Политика конфиденциальности
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         );
 }

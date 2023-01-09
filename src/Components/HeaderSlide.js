@@ -2,7 +2,8 @@ import React from 'react';
 const style = {
     background: "#fff",
     borderRadius: "20px",
-    minHeight: "654px"
+    minHeight: "654px",
+    marginTop: "-15px"
 }
 
 function Block() {
@@ -68,7 +69,7 @@ function Block() {
                 </div>
             </div>
             {/* vokrug-mobile-container */}
-            <div className='uk-padding-small uk-hidden@l' style={style}>
+            <div className='uk-padding-small uk-hidden@l'style={style}>
                 <div className='uk-text-left'>
                     <h1 className='vokrug-padding mobile-h1'>С чем могут помочь<br />онлайн-группы</h1>
                 </div>

@@ -123,7 +123,7 @@ function Header() {
                 </div>
             </div>
             
-            <div className='green vokrug-mobile-container uk-hidden@l vokrug-background-green'>
+            <div className='green vokrug-mobile-container uk-hidden@l'>
                 
                 <nav data-uk-navbar>
                     <div className="uk-navbar-left">
@@ -139,14 +139,10 @@ function Header() {
 
                 <div className="uk-grid-collapse uk-child-width-expand uk-text-center" data-uk-grid>
                     <div>
-                        <div>
-                            <img src={imagesSmall} alt="" />
-                        </div>
+                        <img src={imagesSmall} alt="" />
                     </div>
                     <div>
-                        <div>
-                            <img src={images} alt="" />
-                        </div>
+                        <img src={images} alt="" />
                     </div>
                 </div>
 

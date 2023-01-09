@@ -12,6 +12,9 @@ const maxSize48 = {
 const width80 = {
     maxWidth: "85%"
 }
+const width50 = {
+    maxWidth: "50%"
+}
 function Block() {
     return(
         <div>
@@ -113,42 +116,42 @@ function Block() {
                     <ul data-uk-accordion>
                         <li className="uk-open">
                             <a className="uk-accordion-title vokrug-mobile-h3-1" href="#1">Чем отличается групповая терапия от индивидуальной?</a>
-                            <div className="uk-accordion-content uk-margin-remove-top" style={size520}>
+                            <div className="uk-accordion-content uk-margin-remove-top">
                                 <p className='vokrug-mobile-p-0 uk-margin-small-top' style={width80}>Обратимся к себе, чтобы лучше понять самого себя, свои потребности, желания и границы.</p>
                             </div>
                             <hr />
                         </li>
                         <li>
                             <a className="uk-accordion-title vokrug-mobile-h3-1" href="#2">Сколько стоит и сколько длится встреча?</a>
-                            <div className="uk-accordion-content uk-margin-remove-top" style={size520}>
+                            <div className="uk-accordion-content uk-margin-remove-top">
                                 <p className='vokrug-mobile-p-0 uk-margin-small-top' style={width80}>Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
                             </div>
                             <hr />
                         </li>
                         <li>
                             <a className="uk-accordion-title vokrug-mobile-h3-1" href="#3">Что если мне не понравится?</a>
-                            <div className="uk-accordion-content uk-margin-remove-top" style={size520}>
+                            <div className="uk-accordion-content uk-margin-remove-top">
                                 <p className='vokrug-mobile-p-0 uk-margin-small-top' style={width80}>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
                             </div>
                             <hr />
                         </li>
                         <li>
                             <a className="uk-accordion-title vokrug-mobile-h3-1" href="#4">Могу ли я поменять группу?</a>
-                            <div className="uk-accordion-content uk-margin-remove-top" style={size520}>
+                            <div className="uk-accordion-content uk-margin-remove-top">
                                 <p className='vokrug-mobile-p-0 uk-margin-small-top' style={width80}>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
                             </div>
                             <hr />
                         </li>
                         <li>
                             <a className="uk-accordion-title vokrug-mobile-h3-1" href="#5">Насколько группы конфиденциальны?</a>
-                            <div className="uk-accordion-content uk-margin-remove-top" style={size520}>
+                            <div className="uk-accordion-content uk-margin-remove-top">
                                 <p className='vokrug-mobile-p-0 uk-margin-small-top' style={width80}>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
                             </div>
                             <hr />
                         </li>
                         <li>
                             <a className="uk-accordion-title vokrug-mobile-h3-1" href="#6">Можно ли совмещать<br />групповые встречи<br /> с личной терапией?</a>
-                            <div className="uk-accordion-content uk-margin-remove-top" style={size520}>
+                            <div className="uk-accordion-content uk-margin-remove-top">
                                 <p className='vokrug-mobile-p-0 uk-margin-small-top' style={width80}>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
                             </div>
                             <hr />

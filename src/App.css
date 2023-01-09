@@ -306,7 +306,8 @@ hr {
   line-height: 48px;
 }
 .uk-open > .uk-accordion-title::before{
-  background-color: rgba(228, 227, 226, 0.56);
+  /* background-color: rgba(228, 227, 226, 0.56); */
+  background-color: #ddd;
 
   border-radius: 8px;
   transform: matrix(1, 0, 0, -1, 0, 0);
@@ -581,7 +582,7 @@ hr {
   }
   .vokrug-chat {
     width: 100%;
-    padding: 24px 16px;
+    padding: 24px 0px;
   }
   .vokrug-chat li {
     display: inline-block;
@@ -600,12 +601,6 @@ hr {
   }
   .vokrug-chat li:first-child {
     background-color: #0E7FD0;
-  }
-  .svg_mobile {
-    /* scale: 0.5; */
-    /* left: 450px; */
-    /* z-index: 1; */
-    /* width: 2000px; */
   }
   .vokrug-chat li {
     background-color: #222E3A;
@@ -682,7 +677,6 @@ hr {
 .vokrug-text-gray {
   color: #999999;  
 }
-
 .vokrug-text-link {
   font-family: 'Open Sans';
   font-style: normal;
@@ -710,19 +704,6 @@ hr {
 }
 .vokrug-padding {
   padding: 24px 12px;
-}
-.vokrug-mobile-panel div {
-  /* border-radius: 16px; */
-  /* background-color: #FFFFFF; */
-}
-.testRed {
-  /* background: red !important; */
-}
-.vokrug-mobile-text h1 {
-  /* color: #000000; */
-}
-.vokrug-mobile-text p {
-  /* color: red; */
 }
 .vokrug-mobile-h1-1 {
   font-size: 32px !important;
@@ -762,10 +743,4 @@ hr {
 .vokrug-margin-small {
   padding: 8px 0px;
 }
-/* .vokrug-mobile-panel h1 {
-  color: red;
-}
-.vokrug-mobile-panel p {
-  color: yellow;
-} */
 /* #endregion */

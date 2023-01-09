@@ -123,7 +123,7 @@ function Header() {
                 </div>
             </div>
             
-            <div className='vokrug-mobile-container uk-hidden@l vokrug-background-green'>
+            <div className='green vokrug-mobile-container uk-hidden@l vokrug-background-green'>
                 
                 <nav data-uk-navbar>
                     <div className="uk-navbar-left">

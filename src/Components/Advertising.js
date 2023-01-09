@@ -18,9 +18,9 @@ function Block() {
                 </div>
             </div>
 
-            <div className='vokrug-mobile-container uk-hidden@l'>
-                <h1>Поможем вам позаботится о себе<br />и своих отношениях</h1>
-                <a className="dark vokrug-button uk-align-center uk-text-center" href="button" data-uk-toggle="target: #modal-example">Записаться на бесплатную встречу</a>
+            <div className='green uk-margin-top vokrug-mobile-container uk-hidden@l'>
+                <h1 className='mobile-h1'>Поможем вам<br />позаботится о себе<br />и своих отношениях</h1>
+                <a className="dark vokrug-button uk-align-center uk-text-center uk-margin-small-bottom" href="button" data-uk-toggle="target: #modal-example">Записаться на бесплатную встречу</a>
                 <p className='uk-text-center uk-margin-remove-top uk-margin-remove-bottom'>На встрече психолог расскажет как проходят<br />групповые сессии и уточнит ваш запрос</p>
             </div>
         </div>

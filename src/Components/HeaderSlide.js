@@ -70,7 +70,7 @@ function Block() {
             {/* vokrug-mobile-container */}
             <div className='uk-padding-small uk-hidden@l' style={style}>
                 <div className='uk-text-left'>
-                    <h1 className='vokrug-padding vokrug-mobile-h1-0'>С чем могут помочь<br />онлайн-группы</h1>
+                    <h1 className='vokrug-padding mobile-h1'>С чем могут помочь<br />онлайн-группы</h1>
                 </div>
                 
                 <div className="uk-flex">

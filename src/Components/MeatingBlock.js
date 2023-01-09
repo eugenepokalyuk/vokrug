@@ -113,8 +113,8 @@ function Block() {
 
                 </div>
             </div>
-            <div className='vokrug-mobile-container vokrug-margin-top-large uk-hidden@l'>
-                <h1>Как проходят встречи</h1>
+            <div className='uk-padding-small uk-margin-small-top uk-hidden@l'>
+                <h1 className='mobile-h1'>Как проходят встречи</h1>
                 <div className="uk-position-relative uk-visible-toggle uk-light" tabIndex="-1" data-uk-slider="center: true">
                     <ul className="uk-slider-items uk-grid">
                         

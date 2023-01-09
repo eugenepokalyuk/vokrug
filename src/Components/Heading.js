@@ -1,7 +1,4 @@
 import React from 'react';
-const a = {
-    "scale": "1",
-}
 function Block() {
     return(
         <div>            

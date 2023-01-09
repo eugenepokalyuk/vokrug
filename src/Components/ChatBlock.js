@@ -56,10 +56,6 @@ function Block() {
                     </div>
                 </div>
             </div>
-
-            <div className='vokrug-mobile-container vokrug-margin-top-large'>
-                <h1>Chat</h1>
-            </div>
         </div>
         );
 }

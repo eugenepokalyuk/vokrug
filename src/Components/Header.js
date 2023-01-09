@@ -130,7 +130,7 @@ function Header() {
 
                         <ul className="uk-navbar-nav">
                             <li className="uk-active">
-                                <a href="#" className='vokrug-h1-mobile' style={logoStyle}>вокруг</a>
+                                <a href="#" className='vokrug-mobile-h1-0 vokrug-header toLowerCase' style={logoStyle}>вокруг</a>
                             </li>
                         </ul>
 
@@ -139,12 +139,12 @@ function Header() {
 
                 <div className="uk-grid-collapse uk-child-width-expand uk-text-center" data-uk-grid>
                     <div>
-                        <div className='vokrug-padding-mobile-small'>
+                        <div>
                             <img src={imagesSmall} alt="" />
                         </div>
                     </div>
                     <div>
-                        <div className='vokrug-padding-mobile-small'>
+                        <div>
                             <img src={images} alt="" />
                         </div>
                     </div>
@@ -153,18 +153,20 @@ function Header() {
                 <div className="uk-grid-collapse uk-child-width-expand uk-text-left uk-margin-large-top" data-uk-grid>
                     <div>
                         <div>
-                            <h1 className='uk-text-left vokrug-h1-mobile h1_test'>
+                            <h1 className='uk-text-left vokrug-mobile-h1-1 h1_test vokrug-text-white'>
                                 Онлайн-группы<br />поддержки с опытным<br />психологом на тему <br />
                                 <span className="uk-inline svg_test-mobile">
-                                    <svg width="175" height="94" viewBox="0 0 327 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg width="200" height="94" viewBox="0 0 327 94" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M190.999 1C190.999 1 13.3874 8.51637 1.57862 48.4155C-14.6654 103.3 325.999 112.254 325.999 48.4155C325.999 8.01782 148.09 14.1759 87.4991 29" stroke="#FFDE2F" strokeWidth="2" strokeLinecap="round"/>
                                     </svg>
-                                    <div className="uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle"><i>отношения</i></div>
+                                    <div className="uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
+                                        <i>отношения</i>
+                                    </div>
                                 </span>
                             </h1>
-                            <p className='vokrug-h2-mobile uk-margin-large-top'>Группы до 8 человек. 90 мин <br />раз в неделю. От 1000 ₽</p>
-                            <a className="dark vokrug-button uk-align-center uk-text-center" href="button" data-uk-toggle="target: #modal-example">Записаться на бесплатную встречу</a>
-                            <p className='uk-text-center vokrug-p-mobile '>На встрече психолог расскажет как проходят<br />групповые сессии и уточнит ваш запрос</p>
+                            <p className='vokrug-h2-mobile uk-margin-xlarge-top'>Группы до 8 человек. 90 мин <br />раз в неделю. От 1000 ₽</p>
+                            <a className="dark vokrug-button uk-align-center uk-text-center uk-margin-small-bottom vokrug-mobile-p-2" href="button" data-uk-toggle="target: #modal-example">Записаться на бесплатную встречу</a>
+                            <p className='uk-text-center vokrug-p-mobile uk-margin-bottom-remove'>На встрече психолог расскажет как проходят<br />групповые сессии и уточнит ваш запрос</p>
                         </div>
                     </div>
                     

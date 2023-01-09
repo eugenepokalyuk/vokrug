@@ -1,21 +1,14 @@
 import React from 'react';
-
-import icon_wh from "../Images/icon_whatsapp.png"
-import icon_vk from "../Images/icon_vk.png"
-import icon_tg from "../Images/icon_telegram.png"
-
 const size760 = {
     "maxWidth":"760px"
 }
 const size520 = {
     "maxWidth":"520px"
 }
-
 const maxSize48 = {
     "maxWidth":"48px",
     "marginRight":"10px"
 }
-
 function Block() {
     return(
         <div>

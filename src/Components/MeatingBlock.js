@@ -1,14 +1,11 @@
 import React from 'react';
 
-import userTwo from "../Images/userTwo.png"
-
 const blockSize = {
     width: "575px !important",
     height: "420px !important",
     maxWidth: "575px !important",
     maxHeight: "420px !important",
 }
-
 const style = {
     background: "#fff",
     width: "100%",

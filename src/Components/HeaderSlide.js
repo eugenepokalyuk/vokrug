@@ -1,8 +1,10 @@
 import React from 'react';
 const style = {
     background: "#fff",
-    borderRadius: "20px"
+    borderRadius: "20px",
+    minHeight: "654px"
 }
+
 function Block() {
     return(
         <div>            
@@ -65,37 +67,37 @@ function Block() {
                     </div>
                 </div>
             </div>
-
-            <div className='vokrug-mobile-container uk-hidden@l' style={style}>
-                <div className='vokrug-padding-mobile-small uk-text-left'>
-                    <h1>С чем могут помочь<br />онлайн-группы</h1>
+            {/* vokrug-mobile-container */}
+            <div className='uk-padding-small uk-hidden@l' style={style}>
+                <div className='uk-text-left'>
+                    <h1 className='vokrug-padding vokrug-mobile-h1-0'>С чем могут помочь<br />онлайн-группы</h1>
                 </div>
                 
                 <div className="uk-flex">
-                    <div className="uk-card uk-width-1-3">01.</div>
+                    <div className="uk-card uk-width-1-4">01.</div>
                     <div className="uk-card uk-width-1-1">
-                        <h2>Хотите построить<br />новые отношения</h2>
-                        <p>Справиться с переживаниями<br />из-за переезда и адаптироваться<br />в новых реалиях</p>
+                        <h3 className='vokrug-mobile-h3-1 uk-margin-remove'>Хотите построить<br />новые отношения</h3>
+                        <p className='uk-margin-remove vokrug-margin-small'>Справиться с переживаниями<br />из-за переезда и адаптироваться<br />в новых реалиях</p>
                     </div>
                 </div>
 
                 <hr />
 
                 <div className="uk-flex">
-                    <div className="uk-card uk-width-1-3">02.</div>
+                    <div className="uk-card uk-width-1-4">02.</div>
                     <div className="uk-card uk-width-1-1">
-                        <h2>Видите проблемы<br />в существующих<br />отношениях</h2>
-                        <p>Поймете, почему именно<br />эти проблемы возникли в паре<br />и научитесь с ними справляться.<br />Узнаете как сделать отношения<br />лучше или как безболезненно<br />их закончить</p>
+                        <h3 className='vokrug-mobile-h3-1 uk-margin-remove'>Видите проблемы<br />в существующих<br />отношениях</h3>
+                        <p className='uk-margin-remove vokrug-margin-small'>Поймете, почему именно<br />эти проблемы возникли в паре<br />и научитесь с ними справляться.<br />Узнаете как сделать отношения<br />лучше или как безболезненно<br />их закончить</p>
                     </div>
                 </div>
 
                 <hr />
 
                 <div className="uk-flex">
-                    <div className="uk-card uk-width-1-3">03.</div>
+                    <div className="uk-card uk-width-1-4">03.</div>
                     <div className="uk-card uk-width-1-1">
-                        <h2>Хотите улучшить<br />или поддерживать<br />хорошие отношения</h2>
-                        <p>Научитесь глубже понимать<br />себя и партнера. Как мягко<br />переживать конфликты<br />и как совместно развиваться</p>
+                        <h3 className='vokrug-mobile-h3-1 uk-margin-remove'>Хотите улучшить<br />или поддерживать<br />хорошие отношения</h3>
+                        <p className='uk-margin-remove vokrug-margin-small'>Научитесь глубже понимать<br />себя и партнера. Как мягко<br />переживать конфликты<br />и как совместно развиваться</p>
                     </div>
                 </div>
 

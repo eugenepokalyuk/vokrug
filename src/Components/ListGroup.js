@@ -3,12 +3,7 @@ import React from 'react';
 import userOne from "../Images/userOne.png"
 import userTwo from "../Images/userTwo.png"
 import userThree from "../Images/userThree.png"
-// import checkImg from "../Images/bullet.svg"
 
-// list-style-image: url(./Images/bullet.svg)
-// let option = {
-//     "list-style-image": url({checkImg})
-// }
 const width100 = {
     "width":"368px !important"
 }
@@ -21,7 +16,6 @@ const marginBottom48 = {
 const padding20 = {
     "padding": "20px",
 }
-
 function Block() {
     return(
         <div>

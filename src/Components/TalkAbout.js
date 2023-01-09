@@ -5,6 +5,9 @@ const size760 = {
 const size520 = {
     "maxWidth":"520px"
 }
+const width80 = {
+    maxWidth: "85%"
+}
 function Block() {
     return(
         <div>            
@@ -76,49 +79,49 @@ function Block() {
                         <li className="uk-open">
                             <a className="uk-accordion-title vokrug-mobile-h3-1" href="#1">Любовь к себе</a>
                             <div className="uk-accordion-content uk-margin-remove-top" style={size520}>
-                                <p className='vokrug-mobile-p-0 uk-margin-small-top'>Обратимся к себе, чтобы лучше понять самого себя, свои потребности, желания и границы.</p>
+                                <p className='vokrug-mobile-p-0 uk-margin-small-top' style={width80}>Обратимся к себе, чтобы лучше понять самого себя, свои потребности, желания и границы.</p>
                             </div>
                             <hr />
                         </li>
                         <li>
                             <a className="uk-accordion-title vokrug-mobile-h3-1" href="#2">Женская и мужская психология</a>
                             <div className="uk-accordion-content uk-margin-remove-top" style={size520}>
-                                <p className='vokrug-mobile-p-0 uk-margin-small-top'>Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                                <p className='vokrug-mobile-p-0 uk-margin-small-top' style={width80}>Ut enim ad minim veniam, quis nostrud exercitationullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
                             </div>
                             <hr />
                         </li>
                         <li>
                             <a className="uk-accordion-title vokrug-mobile-h3-1" href="#3">Типы привязанности</a>
                             <div className="uk-accordion-content uk-margin-remove-top" style={size520}>
-                                <p className='vokrug-mobile-p-0 uk-margin-small-top'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                                <p className='vokrug-mobile-p-0 uk-margin-small-top' style={width80}>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
                             </div>
                             <hr />
                         </li>
                         <li>
                             <a className="uk-accordion-title vokrug-mobile-h3-1" href="#3">Что мешает гармоничным отношениям?</a>
                             <div className="uk-accordion-content uk-margin-remove-top" style={size520}>
-                                <p className='vokrug-mobile-p-0 uk-margin-small-top'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                                <p className='vokrug-mobile-p-0 uk-margin-small-top' style={width80}>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
                             </div>
                             <hr />
                         </li>
                         <li>
                             <a className="uk-accordion-title vokrug-mobile-h3-1" href="#3">Кризисы в паре</a>
                             <div className="uk-accordion-content uk-margin-remove-top" style={size520}>
-                                <p className='vokrug-mobile-p-0 uk-margin-small-top'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                                <p className='vokrug-mobile-p-0 uk-margin-small-top' style={width80}>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
                             </div>
                             <hr />
                         </li>
                         <li>
                             <a className="uk-accordion-title vokrug-mobile-h3-1" href="#3">Как на практике реализовать теорию?</a>
                             <div className="uk-accordion-content uk-margin-remove-top" style={size520}>
-                                <p className='vokrug-mobile-p-0 uk-margin-small-top'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                                <p className='vokrug-mobile-p-0 uk-margin-small-top' style={width80}>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
                             </div>
                             <hr />
                         </li>
                         <li>
                             <a className="uk-accordion-title vokrug-mobile-h3-1" href="#3">Дейтинг</a>
                             <div className="uk-accordion-content uk-margin-remove-top" style={size520}>
-                                <p className='vokrug-mobile-p-0 uk-margin-small-top'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                                <p className='vokrug-mobile-p-0 uk-margin-small-top' style={width80}>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
                             </div>
                             <hr />
                         </li>

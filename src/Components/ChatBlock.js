@@ -56,6 +56,20 @@ function Block() {
                     </div>
                 </div>
             </div>
+
+            <div className='uk-margin-small-top uk-hidden@l'>
+                <div className='uk-container-vokrug-pattern uk-width-1-1 borderRadius'>
+                    <ul className='uk-list uk-text-left vokrug-chat'>
+                        <li>Чему я научусь в группе?</li>
+                        <li>Правильной коммуникации<br />в паре</li>
+                        <li>Экологично закрывать<br />конфликты</li>
+                        <li>Рационально реагировать<br />на эмоции партнера</li>
+                        <li>Выстраивать свои границы<br />и соблюдать чужие</li>
+                        <li>Находить причины<br />конфликтов</li>
+                        <li>Безболезненно выходитьиз отношений</li>
+                    </ul>
+                </div>
+            </div>
         </div>
         );
 }

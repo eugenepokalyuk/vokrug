@@ -150,7 +150,7 @@ function Header() {
                     </div>
                 </div>
 
-                <div className="uk-grid-collapse uk-child-width-expand uk-text-left uk-margin-large-top" data-uk-grid>
+                <div className="uk-grid-collapse uk-child-width-expand uk-text-left uk-margin-medium-top" data-uk-grid>
                     <div>
                         <div>
                             <h1 className='uk-text-left vokrug-mobile-h1-1 h1_test vokrug-text-white'>
@@ -164,7 +164,7 @@ function Header() {
                                     </div>
                                 </span>
                             </h1>
-                            <p className='vokrug-h2-mobile uk-margin-xlarge-top'>Группы до 8 человек. 90 мин <br />раз в неделю. От 1000 ₽</p>
+                            <p className='vokrug-h2-mobile vokrug-mobile-p-1 uk-text-left uk-margin-xlarge-top'>Группы до 8 человек. 90 мин <br />раз в неделю. От 1000 ₽</p>
                             <a className="dark vokrug-button uk-align-center uk-text-center uk-margin-small-bottom vokrug-mobile-p-2" href="button" data-uk-toggle="target: #modal-example">Записаться на бесплатную встречу</a>
                             <p className='uk-text-center vokrug-p-mobile uk-margin-bottom-remove'>На встрече психолог расскажет как проходят<br />групповые сессии и уточнит ваш запрос</p>
                         </div>

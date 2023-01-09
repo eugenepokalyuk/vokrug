@@ -19,12 +19,13 @@ function Block() {
                     </div>
                 </div>
             </div>
-            <div className='vokrug-mobile-container uk-margin-large-top uk-hidden@l'>
-                {/* <svg className='uk-position-absolute' width="320" height="435" viewBox="0 0 1262 552" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M101.006 1.77127C28.4735 -1.60235 -98.7471 51.1995 -15.8106 249.813C84.8076 490.77 367.549 501.004 332.746 242.793C297.194 -20.9687 100.063 4.82672 61.4558 47.0678" stroke="#FFDE2F" strokeWidth="10" strokeLinecap="round"/>
+            <div className='vokrug-mobile-container uk-margin-xlarge-top uk-margin-xlarge-bottom uk-hidden@l'>
+                
+                {/* <svg className='uk-position-absolute svg_mobile' width="320" height="435" viewBox="0 0 320 435" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M101.006 1.77127C28.4735 -1.60235 -98.7471 51.1995 -15.8106 249.813C84.8076 490.77 367.549 501.004 332.746 242.793C297.194 -20.9687 100.063 4.82672 61.4558 47.0678" stroke="#FFDE2F" strokeWidth="3" strokeLinecap="round"/>
                 </svg> */}
 
-                <h1 className='mobile-h1'>Подбираем группы<br />исходя из личностных качеств участников, схожего запроса, опыта<br />и интересов. Если есть особые пожелания<br />к составу группы — сообщите менеджеру<br />и мы обязательно <br />учтем их</h1>
+                <h1 className='mobile-h1'>Подбираем группы<br />исходя из личностных<br />качеств участников,<br />схожего запроса, опыта<br />и интересов. Если есть<br />особые пожелания<br />к составу группы —<br />сообщите менеджеру<br />и мы обязательно<br />учтем их</h1>
             </div>
         </div>
         );

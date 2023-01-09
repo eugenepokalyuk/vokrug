@@ -579,12 +579,40 @@ hr {
     padding-left: 0px;
     padding-right: 0px;
   }
+  .vokrug-chat {
+    width: 100%;
+    padding: 24px 16px;
+  }
+  .vokrug-chat li {
+    display: inline-block;
+    border-radius: 12px;
+    padding: 12px 18px;
+    color: #fff;
+    margin: 0px 6px;
+    max-width: 100%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+  }
+  .vokrug-chat li:first-child {
+    background-color: #0E7FD0;
+  }
+  .svg_mobile {
+    /* scale: 0.5; */
+    /* left: 450px; */
+    /* z-index: 1; */
+    /* width: 2000px; */
+  }
+  .vokrug-chat li {
+    background-color: #222E3A;
+  }
   .green.vokrug-mobile-container {
     background-color: #33765F;
     padding: 14px 12px;
-    /* border-radius: 16px; */
-    /* padding-left: 12px; */
-    /* padding-right: 12px; */
   }
   .borderRadius {
     border-radius: 16px
@@ -719,6 +747,14 @@ hr {
 }
 .vokrug-mobile-p-1 {
   font-size: 20px !important;
+  line-height: 28px !important;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  /* or 150% */
+  font-feature-settings: 'pnum' on, 'lnum' on;
+
+  color: #FFFFFF;
 }
 .vokrug-mobile-p-0 {
   font-size: 16px !important;

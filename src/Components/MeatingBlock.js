@@ -15,11 +15,10 @@ const style = {
 }
 
 function Block() {
-    return(
-        <div>            
+    return (
+        <div>
             <div className='uk-container vokrug-margin-top-large uk-visible@l'>
                 <h1 className='uk-text-center vokrug-h2-text uk-margin-large-bottom'>Как проходят встречи</h1>
-                
                 <div className="uk-grid-collapse uk-child-width-1-2@s uk-grid-match" data-uk-grid>
                     <div style={blockSize}>
                         <div className="uk-card vokrug-padding-medium uk-card-default uk-container-vokrug vokrug-height-420 vokrug-shadow-off">
@@ -117,7 +116,7 @@ function Block() {
                 <h1 className='mobile-h1'>Как проходят встречи</h1>
                 <div className="uk-position-relative uk-visible-toggle uk-light" tabIndex="-1" data-uk-slider="center: true">
                     <ul className="uk-slider-items uk-grid">
-                        
+
                         <li className="uk-width-3-4">
                             <div className="uk-panel" style={style}>
                                 <div className="uk-panel uk-flex uk-flex-center uk-child-width-expand uk-padding-small">

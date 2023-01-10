@@ -7,8 +7,8 @@ const style = {
 }
 
 function Block() {
-    return(
-        <div>            
+    return (
+        <div>
             <div className='uk-container uk-container-vokrug uk-margin-large-top uk-visible@l'>
                 <div>
                     <div data-uk-grid>
@@ -17,7 +17,7 @@ function Block() {
                                 <h2 className='vokrug-text large'>Вам подойдет <br />тема, если</h2>
                             </div>
                         </div>
-                        
+
                         <div className="uk-width-expand@m uk-padding-remove">
                             <div className="uk-card uk-card-body uk-text-left test">
                                 <div className='uk-grid-match uk-child-width-expand@s'>
@@ -34,7 +34,7 @@ function Block() {
                                         </div>
                                     </div>
 
-                                    <hr className='uk-text-center vokrug-width-80'/>
+                                    <hr className='uk-text-center vokrug-width-80' />
 
                                     <div className="uk-text-center" data-uk-grid>
                                         <div className="uk-width-auto@m">
@@ -48,7 +48,7 @@ function Block() {
                                         </div>
                                     </div>
 
-                                    <hr className='uk-text-center vokrug-width-80'/>
+                                    <hr className='uk-text-center vokrug-width-80' />
 
                                     <div className="uk-text-center" data-uk-grid>
                                         <div className="uk-width-auto@m">
@@ -68,12 +68,12 @@ function Block() {
                     </div>
                 </div>
             </div>
-            {/* vokrug-mobile-container */}
-            <div className='uk-padding-small uk-hidden@l'style={style}>
+
+            <div className='uk-padding-small uk-hidden@l' style={style}>
                 <div className='uk-text-left'>
                     <h1 className='vokrug-padding mobile-h1'>С чем могут помочь<br />онлайн-группы</h1>
                 </div>
-                
+
                 <div className="uk-flex">
                     <div className="uk-card uk-width-1-4">01.</div>
                     <div className="uk-card uk-width-1-1">
@@ -104,7 +104,7 @@ function Block() {
 
             </div>
         </div>
-        );
+    );
 }
 
 export default Block;

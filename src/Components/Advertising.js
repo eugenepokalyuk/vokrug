@@ -1,10 +1,10 @@
 import React from 'react';
 const maxWidth = {
     "maxWidth": "395px",
-    "padding":"20px 26px"
+    "padding": "20px 26px"
 }
 function Block() {
-    return(
+    return (
         <div>
             <div className='uk-container uk-container-vokrug uk-margin-large-top uk-padding vokrug-bg-green uk-visible@l'>
                 <div>
@@ -24,7 +24,7 @@ function Block() {
                 <p className='uk-text-center uk-margin-remove-top uk-margin-remove-bottom'>На встрече психолог расскажет как проходят<br />групповые сессии и уточнит ваш запрос</p>
             </div>
         </div>
-        );
+    );
 }
 
 export default Block;

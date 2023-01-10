@@ -3,36 +3,25 @@ import images from "../Images/header-image.png"
 import imagesSmall from "../Images/header-image-small.png"
 import cup from "../Images/cup.png"
 
-// const blockImageStyle = {
-//     position: "relative",
-// }
 const imageStyle = {
     position: "absolute",
-    // left: "120px",
     bottom: "-10%",
 }
-
 const logoStyle = {
     "letterSpacing": "5px"
 }
 const maxWidth = {
     "maxWidth": "395px",
-    // "padding":"8px"
 }
 const width760 = {
     maxWidth: "760px",
     width: "760px",
 }
-
-const maxWidth100 = {
-    maxWidth: "100%"
-}
-
 const backColorGray = {
     background: "#F4F2F0"
 }
 function Header() {
-    return(
+    return (
         <div>
             <div className='uk-container vokrug-container-header uk-visible@l'>
                 <nav className="uk-navbar uk-margin uk-padding-small uk-light uk-text-large" data-uk-navbar>
@@ -83,7 +72,7 @@ function Header() {
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </nav>
 
@@ -96,7 +85,7 @@ function Header() {
                                     Онлайн-группы<br />поддержки с опытным<br />психологом<br /> на тему
                                     <div className="uk-inline svg_test">
                                         <svg width="327" height="94" viewBox="0 0 327 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M190.999 1C190.999 1 13.3874 8.51637 1.57862 48.4155C-14.6654 103.3 325.999 112.254 325.999 48.4155C325.999 8.01782 148.09 14.1759 87.4991 29" stroke="#FFDE2F" strokeWidth="2" strokeLinecap="round"/>
+                                            <path d="M190.999 1C190.999 1 13.3874 8.51637 1.57862 48.4155C-14.6654 103.3 325.999 112.254 325.999 48.4155C325.999 8.01782 148.09 14.1759 87.4991 29" stroke="#FFDE2F" strokeWidth="2" strokeLinecap="round" />
                                         </svg>
                                         <div className="uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle"><i>отношения</i></div>
                                     </div>
@@ -104,13 +93,12 @@ function Header() {
 
                                 <p className='uk-text-left vokrug-body-text'>До 8 человек <span>·</span> 90 мин раз в неделю <span>·</span> От 1000 ₽</p>
                                 <div className='uk-flex uk-flex-column vokrug-width-1-2 vokrug-margin-large-top'>
-                                    {/* <button className="dark vokrug-button" type="button" data-uk-toggle="target: #modal-example">Записаться на бесплатную встречу</button> */}
                                     <a className="dark vokrug-button" style={maxWidth} data-uk-toggle="target: #modal-example">Записаться на бесплатную встречу</a>
                                     <p className='vokrug-text-meta uk-text-center uk-margin-small-top' style={maxWidth}>На встрече психолог расскажет как проходят групповые сессии и уточнит ваш запрос.</p>
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="uk-inline uk-align-center uk-margin-remove-top" data-uk-scrollspy="cls: uk-animation-slide-bottom; delay: 300; repeat: false">
                             <img src={images} width="300" height="1200" alt="123" />
                             <div className="uk-position-bottom-left uk-overlay uk-padding-remove" style={imageStyle}>
@@ -122,9 +110,9 @@ function Header() {
 
                 </div>
             </div>
-            
+
             <div className='green vokrug-mobile-container uk-hidden@l'>
-                
+
                 <nav data-uk-navbar>
                     <div className="uk-navbar-left">
 
@@ -139,10 +127,10 @@ function Header() {
 
                 <div className="uk-grid-collapse uk-child-width-expand uk-text-center" data-uk-grid>
                     <div>
-                        <img src={imagesSmall} alt="" />
+                        <img src={imagesSmall} alt="image" />
                     </div>
                     <div>
-                        <img src={images} alt="" />
+                        <img src={images} alt="image" />
                     </div>
                 </div>
 
@@ -153,7 +141,7 @@ function Header() {
                                 Онлайн-группы<br />поддержки с опытным<br />психологом на тему <br />
                                 <span className="uk-inline svg_test-mobile">
                                     <svg width="200" height="94" viewBox="0 0 327 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M190.999 1C190.999 1 13.3874 8.51637 1.57862 48.4155C-14.6654 103.3 325.999 112.254 325.999 48.4155C325.999 8.01782 148.09 14.1759 87.4991 29" stroke="#FFDE2F" strokeWidth="2" strokeLinecap="round"/>
+                                        <path d="M190.999 1C190.999 1 13.3874 8.51637 1.57862 48.4155C-14.6654 103.3 325.999 112.254 325.999 48.4155C325.999 8.01782 148.09 14.1759 87.4991 29" stroke="#FFDE2F" strokeWidth="2" strokeLinecap="round" />
                                     </svg>
                                     <div className="uk-position-cover uk-overlay uk-flex uk-flex-center uk-flex-middle">
                                         <i>отношения</i>
@@ -165,11 +153,11 @@ function Header() {
                             <p className='uk-text-center vokrug-p-mobile uk-margin-bottom-remove'>На встрече психолог расскажет как проходят<br />групповые сессии и уточнит ваш запрос</p>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
-        );
+    );
 }
 
 export default Header;

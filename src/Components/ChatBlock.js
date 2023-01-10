@@ -1,6 +1,6 @@
 import React from 'react';
 const size760 = {
-    "maxWidth":"760px"
+    "maxWidth": "760px"
 }
 const pos = {
     position: "absolute",
@@ -8,8 +8,8 @@ const pos = {
     bottom: "15px",
 }
 function Block() {
-    return(
-        <div>            
+    return (
+        <div>
             <div className='uk-container uk-container-vokrug uk-container-vokrug-pattern uk-margin-large-top uk-padding uk-visible@l'>
                 <div className='uk-align-center' style={size760}>
                     <div className="uk-card uk-border-rounded">
@@ -71,7 +71,7 @@ function Block() {
                 </div>
             </div>
         </div>
-        );
+    );
 }
 
 export default Block;

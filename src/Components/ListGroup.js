@@ -7,13 +7,13 @@ import userTwo from "../Images/userTwo.png"
 import userThree from "../Images/userThree.png"
 
 const width100 = {
-    "width":"368px !important"
+    "width": "368px !important"
 }
 const width100perc = {
-    "width":"100%",
+    "width": "100%",
 }
 const marginBottom48 = {
-    "marginBottom":"48px"
+    "marginBottom": "48px"
 }
 const padding20 = {
     "padding": "0px 20px",
@@ -27,7 +27,7 @@ const style = {
     borderRadius: "16px"
 }
 function Block() {
-    return(
+    return (
         <div>
             <div className='uk-visible@l'>
                 <div className='uk-text-center' style={marginBottom48}>
@@ -40,7 +40,7 @@ function Block() {
                             <div className="uk-card-media-top">
                                 <img src={userOne} style={width100perc} alt="" />
                             </div>
-                            
+
                             <div>
                                 <h2 className='uk-text-center uk-margin-medium-top uk-margin-remove-bottom'>Снежана</h2>
                                 <ul className="uk-list vokrug-type-disc" style={padding20}>
@@ -64,7 +64,7 @@ function Block() {
                             <div className="uk-card-media-top">
                                 <img src={userTwo} style={width100perc} alt="" />
                             </div>
-                            
+
                             <div>
                                 <h2 className='uk-text-center uk-margin-medium-top uk-margin-remove-bottom'>Людмила</h2>
                                 <ul className="uk-list vokrug-type-disc" style={padding20}>
@@ -87,7 +87,7 @@ function Block() {
                                 <img src={userThree} style={width100perc} alt="" />
                             </div>
                             
-                            <div>
+<div>
                                 <h2 className='uk-text-center uk-margin-medium-top uk-margin-remove-bottom'>Пётр</h2>
                                 <ul className="uk-list vokrug-type-disc" style={padding20}>
                                     <hr />
@@ -137,7 +137,7 @@ function Block() {
                             <div className="uk-panel vokrug-list-block vokrug-margin-xlarge-top" style={style}>
                                 <ul className="uk-list vokrug-type-disc uk-padding uk-padding-remove-top">
                                 <h2 className='uk-text-center vokrug-margin-large-top uk-margin-remove-bottom uk-padding-remove-bottom'>Людмила</h2>
-                                    <hr />
+                                        <hr />
                                     <li>8 лет опыта.</li>
                                     <hr />
                                     <li>Практикующий психолог.</li>
@@ -177,5 +177,5 @@ function Block() {
         </div>
         );
 }
-
+    
 export default Block;

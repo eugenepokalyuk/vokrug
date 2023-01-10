@@ -1,16 +1,16 @@
 import React from 'react';
 const size760 = {
-    "maxWidth":"760px"
+    "maxWidth": "760px"
 }
 const size520 = {
-    "maxWidth":"520px"
+    "maxWidth": "520px"
 }
 const width80 = {
     maxWidth: "85%"
 }
 function Block() {
-    return(
-        <div>            
+    return (
+        <div>
             <div className='uk-container uk-container-vokrug-transparent uk-margin-large-top uk-padding uk-visible@l'>
                 <div>
                     <div className='uk-align-center uk-dark' style={size760}>
@@ -129,7 +129,7 @@ function Block() {
                 </div>
             </div>
         </div>
-        );
+    );
 }
 
 export default Block;
